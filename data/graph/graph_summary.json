@@ -1,0 +1,19 @@
+{
+  "total_nodes": 224,
+  "total_edges": 1639,
+  "node_types": {
+    "Region": 3,
+    "Country": 32,
+    "Bulletin": 40,
+    "Situation": 109,
+    "Forecast": 40
+  },
+  "edge_types": {
+    "contains": 32,
+    "has_situation": 109,
+    "covers": 109,
+    "has_forecast": 40,
+    "mentions": 1240,
+    "describes_region": 109
+  }
+}

@@ -1,0 +1,6 @@
+#Files and directories to ignore
+data/raw/
+data/text/
+__pycache__/
+*.pyc
+*.pyo

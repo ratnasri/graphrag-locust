@@ -1,0 +1,4404 @@
+{
+  "generated_at": "2026-07-28",
+  "queries": [
+    {
+      "id": "q1",
+      "question": "How did the scale of desert locust control operations change from 2023 to 2024?",
+      "rag": {
+        "summary": "The provided context is insufficient to answer this question. The retrieved pages contain only procedural and definitional information from the Desert Locust Bulletins, such as FAO's Standard Operating Procedures (SOPs), community awareness materials, and terminology definitions for locust population classifications. None of the excerpts include data comparing the scale or scope of control operations between 2023 and 2024. To address this question, I would need bulletins with specific operational statistics, area treated, or resource allocation information from those years.",
+        "chunks": [
+          {
+            "chunk_id": "552_p73",
+            "bulletin_number": 552,
+            "page": 73,
+            "year": 2024,
+            "month": "September",
+            "coverage_period": "September 2024",
+            "score": 0.6827,
+            "snippet": "page 6 of   9 No. 552 September 2024 Standard Operating Procedures (SOPs) FAO has developed pocket-sized SOPs for use on the ﬁ eld of  Desert Locust biology, survey, and control, including instructions  on how to use eLocust3 tools, that are available in different  languages. [www.fao.org/ag/locusts/en/publicat/gl/sops/index.html] Community awareness As communities have an important role to play i"
+          },
+          {
+            "chunk_id": "563_p43",
+            "bulletin_number": 563,
+            "page": 43,
+            "year": 2025,
+            "month": "August",
+            "coverage_period": "August 2025",
+            "score": 0.6805,
+            "snippet": "page 6 of   9 No. 563 August 2025 Standard Operating Procedures (SOPs) FAO has developed pocket-sized SOPs for use on the ﬁ eld of  Desert Locust biology, survey, and control, including instructions  on how to use eLocust3 tools, that are available in different  languages. [www.fao.org/ag/locusts/en/publicat/gl/sops/index.html] Community awareness As communities have an important role to play in D"
+          },
+          {
+            "chunk_id": "540_p71",
+            "bulletin_number": 540,
+            "page": 71,
+            "year": 2023,
+            "month": "September",
+            "coverage_period": "September 2023",
+            "score": 0.6724,
+            "snippet": "page 6 of   8 No. 540 September 2023 • Animation – a simple SWABO animation for all readers  to learn about the world’s most dangerous migratory pest  (www.youtube.com/watch?v=3TOhuA-v1m4) Publicly available locust data Desert Locust survey and control data are available for research  and other non-commercial purposes: • FAO Locust Hub (locust-hub-hqfao.hub.arcgis.com/) • FAO Hand-in-Hand (data.ap"
+          },
+          {
+            "chunk_id": "538_p54",
+            "bulletin_number": 538,
+            "page": 54,
+            "year": 2023,
+            "month": "July",
+            "coverage_period": "July 2023",
+            "score": 0.6591,
+            "snippet": "page 6 of   8 No. 538 July 2023 • Animation – a simple SWABO animation for all readers  to learn about the world's most dangerous migratory pest  (www.youtube.com/watch?v=3TOhuA-v1m4) Publicly available locust data Desert Locust survey and control data are available for research  and other non-commercial purposes: • FAO Locust Hub (locust-hub-hqfao.hub.arcgis.com/) • FAO Hand-in-Hand (data.apps.fa"
+          },
+          {
+            "chunk_id": "533_p13",
+            "bulletin_number": 533,
+            "page": 13,
+            "year": 2023,
+            "month": "February",
+            "coverage_period": "February 2023",
+            "score": 0.6589,
+            "snippet": "page 5 of   8 No. 533 February 2023 languages. [http://www.fao.org/ag/locusts/en/publicat/gl/sops/index.html] Community awareness As communities have an important role to play in Desert Locust  management, FAO has developed: • Posters – six simple, easy to understand posters,  providing basic messaging on pesticide containers, safety  measures, pesticide exposure, farmer advice, Desert  Locust, an"
+          },
+          {
+            "chunk_id": "543_p96",
+            "bulletin_number": 543,
+            "page": 96,
+            "year": 2023,
+            "month": "December",
+            "coverage_period": "December 2023",
+            "score": 0.6554,
+            "snippet": "page 6 of   8 No. 543 December 2023 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking "
+          },
+          {
+            "chunk_id": "549_p48",
+            "bulletin_number": 549,
+            "page": 48,
+            "year": 2024,
+            "month": "June",
+            "coverage_period": "June 2024",
+            "score": 0.6546,
+            "snippet": "page 6 of   8 No. 549 June 2024 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking grou"
+          },
+          {
+            "chunk_id": "544_p8",
+            "bulletin_number": 544,
+            "page": 8,
+            "year": 2024,
+            "month": "January",
+            "coverage_period": "January 2024",
+            "score": 0.6526,
+            "snippet": "page 6 of   8 No. 544 January 2024 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking g"
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": true,
+        "traversal_path": "Bulletin(year) -[mentions]-> Country | years: [2023, 2024]",
+        "nodes_visited": 37,
+        "edges_traversed": 48,
+        "type": "treatment_yoy",
+        "year_totals": {
+          "2023": 11817.0,
+          "2024": 2375.0
+        },
+        "ranked_by_year": {
+          "2023": [
+            {
+              "country": "Morocco",
+              "ha": 2519.0,
+              "bulletins": [
+                532,
+                533,
+                534,
+                537,
+                539
+              ]
+            },
+            {
+              "country": "Saudi Arabia",
+              "ha": 2197.0,
+              "bulletins": [
+                533,
+                538,
+                540,
+                542
+              ]
+            },
+            {
+              "country": "India",
+              "ha": 1392.0,
+              "bulletins": [
+                539,
+                540
+              ]
+            },
+            {
+              "country": "Algeria",
+              "ha": 1273.0,
+              "bulletins": [
+                536,
+                537
+              ]
+            },
+            {
+              "country": "Sudan",
+              "ha": 1248.0,
+              "bulletins": [
+                532,
+                534,
+                538,
+                539,
+                541
+              ]
+            },
+            {
+              "country": "Eritrea",
+              "ha": 992.0,
+              "bulletins": [
+                538,
+                539
+              ]
+            },
+            {
+              "country": "Ethiopia",
+              "ha": 901.0,
+              "bulletins": [
+                539,
+                540
+              ]
+            },
+            {
+              "country": "Mauritania",
+              "ha": 571.0,
+              "bulletins": [
+                532,
+                536,
+                537,
+                542,
+                543
+              ]
+            },
+            {
+              "country": "Egypt",
+              "ha": 466.0,
+              "bulletins": [
+                534,
+                537
+              ]
+            },
+            {
+              "country": "Mali",
+              "ha": 178.0,
+              "bulletins": [
+                542
+              ]
+            },
+            {
+              "country": "Oman",
+              "ha": 80.0,
+              "bulletins": [
+                539,
+                540
+              ]
+            }
+          ],
+          "2024": [
+            {
+              "country": "Eritrea",
+              "ha": 540.0,
+              "bulletins": [
+                544,
+                554
+              ]
+            },
+            {
+              "country": "Sudan",
+              "ha": 508.0,
+              "bulletins": [
+                545,
+                546,
+                548,
+                549,
+                550,
+                553
+              ]
+            },
+            {
+              "country": "Oman",
+              "ha": 477.0,
+              "bulletins": [
+                555
+              ]
+            },
+            {
+              "country": "Yemen",
+              "ha": 345.0,
+              "bulletins": [
+                555
+              ]
+            },
+            {
+              "country": "Mali",
+              "ha": 240.0,
+              "bulletins": [
+                545,
+                549
+              ]
+            },
+            {
+              "country": "Egypt",
+              "ha": 150.0,
+              "bulletins": [
+                554,
+                555
+              ]
+            },
+            {
+              "country": "Algeria",
+              "ha": 95.0,
+              "bulletins": [
+                549
+              ]
+            },
+            {
+              "country": "Libya",
+              "ha": 20.0,
+              "bulletins": [
+                549
+              ]
+            }
+          ]
+        },
+        "trav_nodes": [
+          "Bulletin_548",
+          "Bulletin_539",
+          "Algeria",
+          "Oman",
+          "Bulletin_535",
+          "Bulletin_533",
+          "Bulletin_546",
+          "Bulletin_534",
+          "Bulletin_540",
+          "Saudi Arabia",
+          "Bulletin_549",
+          "Libya",
+          "Mali",
+          "Mauritania",
+          "Bulletin_550",
+          "Bulletin_551",
+          "Ethiopia",
+          "Bulletin_553",
+          "Bulletin_541",
+          "Bulletin_543",
+          "Bulletin_537",
+          "Bulletin_544",
+          "Egypt",
+          "Bulletin_555",
+          "Bulletin_554",
+          "Bulletin_545",
+          "India",
+          "Bulletin_538",
+          "Morocco",
+          "Bulletin_552",
+          "Bulletin_542",
+          "Bulletin_532",
+          "Sudan",
+          "Bulletin_536",
+          "Bulletin_547",
+          "Yemen",
+          "Eritrea"
+        ],
+        "trav_edges": [
+          [
+            "Bulletin_532",
+            "Morocco"
+          ],
+          [
+            "Bulletin_532",
+            "Mauritania"
+          ],
+          [
+            "Bulletin_532",
+            "Sudan"
+          ],
+          [
+            "Bulletin_533",
+            "Morocco"
+          ],
+          [
+            "Bulletin_533",
+            "Saudi Arabia"
+          ],
+          [
+            "Bulletin_534",
+            "Morocco"
+          ],
+          [
+            "Bulletin_534",
+            "Egypt"
+          ],
+          [
+            "Bulletin_534",
+            "Sudan"
+          ],
+          [
+            "Bulletin_536",
+            "Algeria"
+          ],
+          [
+            "Bulletin_536",
+            "Mauritania"
+          ],
+          [
+            "Bulletin_537",
+            "Morocco"
+          ],
+          [
+            "Bulletin_537",
+            "Algeria"
+          ],
+          [
+            "Bulletin_537",
+            "Mauritania"
+          ],
+          [
+            "Bulletin_537",
+            "Egypt"
+          ],
+          [
+            "Bulletin_538",
+            "Sudan"
+          ],
+          [
+            "Bulletin_538",
+            "Eritrea"
+          ],
+          [
+            "Bulletin_538",
+            "Saudi Arabia"
+          ],
+          [
+            "Bulletin_539",
+            "Morocco"
+          ],
+          [
+            "Bulletin_539",
+            "Sudan"
+          ],
+          [
+            "Bulletin_539",
+            "Eritrea"
+          ],
+          [
+            "Bulletin_539",
+            "Ethiopia"
+          ],
+          [
+            "Bulletin_539",
+            "Oman"
+          ],
+          [
+            "Bulletin_539",
+            "India"
+          ],
+          [
+            "Bulletin_540",
+            "Ethiopia"
+          ],
+          [
+            "Bulletin_540",
+            "Saudi Arabia"
+          ],
+          [
+            "Bulletin_540",
+            "Oman"
+          ],
+          [
+            "Bulletin_540",
+            "India"
+          ],
+          [
+            "Bulletin_541",
+            "Sudan"
+          ],
+          [
+            "Bulletin_542",
+            "Mauritania"
+          ],
+          [
+            "Bulletin_542",
+            "Mali"
+          ],
+          [
+            "Bulletin_542",
+            "Saudi Arabia"
+          ],
+          [
+            "Bulletin_543",
+            "Mauritania"
+          ],
+          [
+            "Bulletin_544",
+            "Eritrea"
+          ],
+          [
+            "Bulletin_545",
+            "Mali"
+          ],
+          [
+            "Bulletin_545",
+            "Sudan"
+          ],
+          [
+            "Bulletin_546",
+            "Sudan"
+          ],
+          [
+            "Bulletin_548",
+            "Sudan"
+          ],
+          [
+            "Bulletin_549",
+            "Algeria"
+          ],
+          [
+            "Bulletin_549",
+            "Libya"
+          ],
+          [
+            "Bulletin_549",
+            "Mali"
+          ],
+          [
+            "Bulletin_549",
+            "Sudan"
+          ],
+          [
+            "Bulletin_550",
+            "Sudan"
+          ],
+          [
+            "Bulletin_553",
+            "Sudan"
+          ],
+          [
+            "Bulletin_554",
+            "Egypt"
+          ],
+          [
+            "Bulletin_554",
+            "Eritrea"
+          ],
+          [
+            "Bulletin_555",
+            "Egypt"
+          ],
+          [
+            "Bulletin_555",
+            "Yemen"
+          ],
+          [
+            "Bulletin_555",
+            "Oman"
+          ]
+        ],
+        "summary": "# Desert Locust Control Operations: 2023 vs 2024\n\nDesert locust control operations decreased significantly from 2023 to 2024, with treated areas dropping from 11,817 hectares to 2,375 hectares—an 80% reduction. In 2023, Morocco and Saudi Arabia accounted for nearly 40% of all control operations, while 2024 saw operations spread across more countries but at substantially lower intensities. Sudan and Eritrea remained persistent problem areas in both years, though their treated acreage also declined notably (1,248 ha to 508 ha and 992 ha to 540 ha, respectively). This dramatic reduction suggests improved locust management or reduced infestation pressure in 2024 compared to the previous year."
+      }
+    },
+    {
+      "id": "q2",
+      "question": "How did the locust situation differ between the Western and Eastern regions?",
+      "rag": {
+        "summary": "The provided context is insufficient to make a detailed comparison between Western and Eastern regions. However, the available data indicates some regional differences: In the **Central/Eastern Region** (Red Sea and Horn of Africa), Bulletin 541 (October 2023) documents active outbreaks with four local Desert Locust outbreaks developing in November, with abnormally early winter conditions. In contrast, Bulletin 551 (August 2024) describes the **Western Sahel region** (Mauritania to Eritrea) as experiencing a calm situation with low locust numbers during breeding season due to good rainfall. The Eastern Red Sea region consistently shows more active infestations requiring control operations, while the Western Sahel appears more stable during the periods covered.",
+        "chunks": [
+          {
+            "chunk_id": "545_p14",
+            "bulletin_number": 545,
+            "page": 14,
+            "year": 2024,
+            "month": "February",
+            "coverage_period": "February 2024",
+            "score": 0.619,
+            "snippet": "page 4 of   8 No. 545 February 2024 • FORECAST  The northern Red Sea coast will still see hopper groups  and a few bands in the second generation. Expect hatching  to continue in early March, along with the appearance of  ﬂ edglings, new immature adults, and groups. Nonetheless,  locust numbers are predicted to decline. Some rain may occur  in the ﬁ rst half of March along the coast from Masturah "
+          },
+          {
+            "chunk_id": "541_p83",
+            "bulletin_number": 541,
+            "page": 83,
+            "year": 2023,
+            "month": "October",
+            "coverage_period": "October 2023",
+            "score": 0.617,
+            "snippet": "CENTRAL REGION OUTBREAKS Four local Desert Locust outbreaks developed during November.  The winter season started earlier than normal this year along  the Red Sea and Gulf of Aden coasts due to the Indian Ocean  Dipole and El Niño in the Horn of Africa. A few swarms laid  in Sudan and Somalia while groups occurred in Eritrea and  Saudi Arabia. Hatching started and hopper groups and bands  increase"
+          },
+          {
+            "chunk_id": "537_p44",
+            "bulletin_number": 537,
+            "page": 44,
+            "year": 2023,
+            "month": "June",
+            "coverage_period": "June 2023",
+            "score": 0.614,
+            "snippet": "page 4 of   8 No. 537 June 2023 from south of Sur (2234N/5930E) to Duqm (1939N/5743E).  No locusts were seen on the Musandam Peninsula, Batinah  coast, and in the interior from Buraimi (2415N/5547E) to Adam  (2223N/5731E). • FORECAST No signiﬁ cant developments are likely. SAUDI ARABIA • SITUATION During June, late instar hopper, groups and bands were in the  interior from east of Medinah (2430N/3"
+          },
+          {
+            "chunk_id": "540_p72",
+            "bulletin_number": 540,
+            "page": 72,
+            "year": 2023,
+            "month": "September",
+            "coverage_period": "September 2023",
+            "score": 0.6092,
+            "snippet": "page 7 of   8 No. 540 September 2023 Ghana, Guinea, Guinea-Bissau, Liberia, Nigeria, Sierre  Leone and Togo Central •  Locust-affected countries along the Red Sea: Djibouti,  Egypt, Eritrea, Ethiopia, Oman, Saudi Arabia, Somalia,  Sudan, Yemen; during upsurges and plagues only: Bahrain,  D.R. Congo, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon,  Palestine, Qatar, South Sudan, Syria, Tanzania, Turk"
+          },
+          {
+            "chunk_id": "536_p41",
+            "bulletin_number": 536,
+            "page": 41,
+            "year": 2023,
+            "month": "May",
+            "coverage_period": "May 2023",
+            "score": 0.6051,
+            "snippet": "SUMMER RAINS STARTED EARLY The Desert Locust situation was mainly calm during June.  Control operations continued in Saudi Arabia where late instar  hoppers, groups, and bands became groups of immature  adults in the interior and parts of the Red Sea coastal area.  In Yemen, scattered adults were seen in the interior as well as  in parts of the highland and northern Red Sea coastal areas.  Hoppers"
+          },
+          {
+            "chunk_id": "541_p76",
+            "bulletin_number": 541,
+            "page": 76,
+            "year": 2023,
+            "month": "October",
+            "coverage_period": "October 2023",
+            "score": 0.6032,
+            "snippet": "page 3 of   9 No. 541 October 2023 CHAD • SITUATION  During October, isolated second and third-instar hoppers were  seen in the ﬁ rst week near Kalait (1550N/2054E) in the east  while ﬂ edglings were  observed in a few places northwest of  Fada (1714N/2132E) in the second week. Elsewhere, isolated  maturing and mature solitarious adults were seen in the west near  Nokou (1435N/1446E) and Ziguey (1"
+          },
+          {
+            "chunk_id": "563_p42",
+            "bulletin_number": 563,
+            "page": 42,
+            "year": 2025,
+            "month": "August",
+            "coverage_period": "August 2025",
+            "score": 0.6019,
+            "snippet": "page 5 of   9 No. 563 August 2025 BAHRAIN, DEMOCRATIC REPUBLIC OF THE CONGO, IRAQ,  ISRAEL, JORDAN, KENYA, KUWAIT, LEBANON, PALESTINE,  QATAR, SOUTH SUDAN, SYRIAN ARAB REPUBLIC, TÜRKIYE,  UGANDA, UNITED ARAB EMIRATES, AND UNITED REPUBLIC  OF TANZANIA • FORECAST No signi ﬁ cant developments are likely. EASTERN REGION Very small-scale breeding may occur along the India- Pakistan border.   AFGHANISTA"
+          },
+          {
+            "chunk_id": "551_p68",
+            "bulletin_number": 551,
+            "page": 68,
+            "year": 2024,
+            "month": "August",
+            "coverage_period": "August 2024",
+            "score": 0.5966,
+            "snippet": "SUMMER BREEDING ALMOST OVER  The Desert Locust situation was calm during September.  Low numbers of locusts were probably present and breeding  within a large area of the northern Sahel from Mauritania to  western Eritrea and parts of the interior of Yemen due to good  rainfall. A few small groups were seen in Sudan and Yemen.  Small breeding also occurred in a few places along the Red  Sea coast "
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": true,
+        "traversal_path": "Bulletin -[has_situation]-> Situation | regions: WESTERN, EASTERN",
+        "nodes_visited": 109,
+        "edges_traversed": 72,
+        "type": "alert_multi_region",
+        "alerts_by_region": {
+          "WESTERN": [
+            {
+              "bulletin": 532,
+              "year": 2023,
+              "coverage": "January 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 533,
+              "year": 2023,
+              "coverage": "February 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 534,
+              "year": 2023,
+              "coverage": "March 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 535,
+              "year": 2023,
+              "coverage": "April 2023",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 536,
+              "year": 2023,
+              "coverage": "May 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 537,
+              "year": 2023,
+              "coverage": "June 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 538,
+              "year": 2023,
+              "coverage": "July 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 539,
+              "year": 2023,
+              "coverage": "August 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 540,
+              "year": 2023,
+              "coverage": "September 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 541,
+              "year": 2023,
+              "coverage": "October 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 542,
+              "year": 2023,
+              "coverage": "November 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 544,
+              "year": 2024,
+              "coverage": "January 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 545,
+              "year": 2024,
+              "coverage": "February 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 546,
+              "year": 2024,
+              "coverage": "March 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 547,
+              "year": 2024,
+              "coverage": "April 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 548,
+              "year": 2024,
+              "coverage": "May 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 549,
+              "year": 2024,
+              "coverage": "June 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 550,
+              "year": 2024,
+              "coverage": "July 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 551,
+              "year": 2024,
+              "coverage": "August 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 552,
+              "year": 2024,
+              "coverage": "September 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 553,
+              "year": 2024,
+              "coverage": "October 2024",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 554,
+              "year": 2024,
+              "coverage": "November 2024",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 558,
+              "year": 2025,
+              "coverage": "March 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 559,
+              "year": 2025,
+              "coverage": "April 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 560,
+              "year": 2025,
+              "coverage": "May 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 561,
+              "year": 2025,
+              "coverage": "June 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 562,
+              "year": 2025,
+              "coverage": "July 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 563,
+              "year": 2025,
+              "coverage": "August 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 564,
+              "year": 2025,
+              "coverage": "September 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 565,
+              "year": 2025,
+              "coverage": "October 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 566,
+              "year": 2025,
+              "coverage": "November 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 569,
+              "year": 2026,
+              "coverage": "February 2026",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 570,
+              "year": 2026,
+              "coverage": "March 2026",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 571,
+              "year": 2026,
+              "coverage": "April 2026",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 572,
+              "year": 2026,
+              "coverage": "May 2026",
+              "alert": "CAUTION"
+            }
+          ],
+          "EASTERN": [
+            {
+              "bulletin": 532,
+              "year": 2023,
+              "coverage": "January 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 533,
+              "year": 2023,
+              "coverage": "February 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 534,
+              "year": 2023,
+              "coverage": "March 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 535,
+              "year": 2023,
+              "coverage": "April 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 536,
+              "year": 2023,
+              "coverage": "May 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 537,
+              "year": 2023,
+              "coverage": "June 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 538,
+              "year": 2023,
+              "coverage": "July 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 539,
+              "year": 2023,
+              "coverage": "August 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 540,
+              "year": 2023,
+              "coverage": "September 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 541,
+              "year": 2023,
+              "coverage": "October 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 542,
+              "year": 2023,
+              "coverage": "November 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 544,
+              "year": 2024,
+              "coverage": "January 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 545,
+              "year": 2024,
+              "coverage": "February 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 546,
+              "year": 2024,
+              "coverage": "March 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 547,
+              "year": 2024,
+              "coverage": "April 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 548,
+              "year": 2024,
+              "coverage": "May 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 549,
+              "year": 2024,
+              "coverage": "June 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 550,
+              "year": 2024,
+              "coverage": "July 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 551,
+              "year": 2024,
+              "coverage": "August 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 552,
+              "year": 2024,
+              "coverage": "September 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 553,
+              "year": 2024,
+              "coverage": "October 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 554,
+              "year": 2024,
+              "coverage": "November 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 558,
+              "year": 2025,
+              "coverage": "March 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 559,
+              "year": 2025,
+              "coverage": "April 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 560,
+              "year": 2025,
+              "coverage": "May 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 561,
+              "year": 2025,
+              "coverage": "June 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 562,
+              "year": 2025,
+              "coverage": "July 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 563,
+              "year": 2025,
+              "coverage": "August 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 564,
+              "year": 2025,
+              "coverage": "September 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 565,
+              "year": 2025,
+              "coverage": "October 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 566,
+              "year": 2025,
+              "coverage": "November 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 567,
+              "year": 2025,
+              "coverage": "December 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 568,
+              "year": 2026,
+              "coverage": "January 2026",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 569,
+              "year": 2026,
+              "coverage": "February 2026",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 570,
+              "year": 2026,
+              "coverage": "March 2026",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 571,
+              "year": 2026,
+              "coverage": "April 2026",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 572,
+              "year": 2026,
+              "coverage": "May 2026",
+              "alert": "CALM"
+            }
+          ]
+        },
+        "trav_nodes": [
+          "Situation_544_EASTERN",
+          "Situation_536_EASTERN",
+          "Situation_542_WESTERN",
+          "Situation_538_EASTERN",
+          "Situation_538_WESTERN",
+          "Situation_540_WESTERN",
+          "Situation_560_WESTERN",
+          "Situation_535_WESTERN",
+          "Situation_569_WESTERN",
+          "Bulletin_572",
+          "Situation_541_WESTERN",
+          "Bulletin_567",
+          "Situation_548_WESTERN",
+          "Bulletin_545",
+          "Bulletin_538",
+          "Situation_547_WESTERN",
+          "Situation_549_WESTERN",
+          "Bulletin_560",
+          "Situation_554_WESTERN",
+          "Bulletin_536",
+          "Situation_553_WESTERN",
+          "Bulletin_558",
+          "Situation_570_EASTERN",
+          "Situation_532_EASTERN",
+          "Situation_534_EASTERN",
+          "Bulletin_539",
+          "Situation_552_EASTERN",
+          "Situation_539_WESTERN",
+          "Situation_566_EASTERN",
+          "Situation_546_WESTERN",
+          "Bulletin_535",
+          "Situation_552_WESTERN",
+          "Situation_564_WESTERN",
+          "Situation_541_EASTERN",
+          "Bulletin_546",
+          "Situation_544_WESTERN",
+          "Situation_551_EASTERN",
+          "Situation_550_WESTERN",
+          "Situation_540_EASTERN",
+          "Bulletin_562",
+          "Bulletin_566",
+          "Situation_532_WESTERN",
+          "Situation_572_EASTERN",
+          "Situation_533_WESTERN",
+          "Bulletin_550",
+          "Bulletin_565",
+          "Situation_533_EASTERN",
+          "Situation_554_EASTERN",
+          "Situation_548_EASTERN",
+          "Situation_536_WESTERN",
+          "Situation_546_EASTERN",
+          "Situation_567_EASTERN",
+          "Bulletin_542",
+          "Bulletin_532",
+          "Bulletin_569",
+          "Situation_558_EASTERN",
+          "Situation_571_EASTERN",
+          "Situation_571_WESTERN",
+          "Bulletin_548",
+          "Situation_565_WESTERN",
+          "Situation_537_EASTERN",
+          "Bulletin_561",
+          "Bulletin_533",
+          "Situation_561_EASTERN",
+          "Bulletin_534",
+          "Bulletin_549",
+          "Situation_564_EASTERN",
+          "Situation_562_WESTERN",
+          "Bulletin_571",
+          "Situation_562_EASTERN",
+          "Bulletin_570",
+          "Situation_537_WESTERN",
+          "Bulletin_551",
+          "Situation_534_WESTERN",
+          "Bulletin_541",
+          "Bulletin_537",
+          "Bulletin_544",
+          "Bulletin_559",
+          "Situation_561_WESTERN",
+          "Situation_563_EASTERN",
+          "Situation_545_WESTERN",
+          "Situation_560_EASTERN",
+          "Situation_539_EASTERN",
+          "Situation_559_EASTERN",
+          "Situation_545_EASTERN",
+          "Situation_568_EASTERN",
+          "Situation_550_EASTERN",
+          "Situation_551_WESTERN",
+          "Situation_559_WESTERN",
+          "Situation_570_WESTERN",
+          "Situation_549_EASTERN",
+          "Situation_569_EASTERN",
+          "Situation_566_WESTERN",
+          "Bulletin_540",
+          "Situation_542_EASTERN",
+          "Bulletin_563",
+          "Situation_563_WESTERN",
+          "Bulletin_564",
+          "Situation_535_EASTERN",
+          "Bulletin_568",
+          "Bulletin_553",
+          "Situation_565_EASTERN",
+          "Situation_558_WESTERN",
+          "Situation_553_EASTERN",
+          "Bulletin_554",
+          "Situation_572_WESTERN",
+          "Bulletin_552",
+          "Bulletin_547",
+          "Situation_547_EASTERN"
+        ],
+        "trav_edges": [
+          [
+            "Bulletin_532",
+            "Situation_532_WESTERN"
+          ],
+          [
+            "Bulletin_533",
+            "Situation_533_WESTERN"
+          ],
+          [
+            "Bulletin_534",
+            "Situation_534_WESTERN"
+          ],
+          [
+            "Bulletin_535",
+            "Situation_535_WESTERN"
+          ],
+          [
+            "Bulletin_536",
+            "Situation_536_WESTERN"
+          ],
+          [
+            "Bulletin_537",
+            "Situation_537_WESTERN"
+          ],
+          [
+            "Bulletin_538",
+            "Situation_538_WESTERN"
+          ],
+          [
+            "Bulletin_539",
+            "Situation_539_WESTERN"
+          ],
+          [
+            "Bulletin_540",
+            "Situation_540_WESTERN"
+          ],
+          [
+            "Bulletin_541",
+            "Situation_541_WESTERN"
+          ],
+          [
+            "Bulletin_542",
+            "Situation_542_WESTERN"
+          ],
+          [
+            "Bulletin_544",
+            "Situation_544_WESTERN"
+          ],
+          [
+            "Bulletin_545",
+            "Situation_545_WESTERN"
+          ],
+          [
+            "Bulletin_546",
+            "Situation_546_WESTERN"
+          ],
+          [
+            "Bulletin_547",
+            "Situation_547_WESTERN"
+          ],
+          [
+            "Bulletin_548",
+            "Situation_548_WESTERN"
+          ],
+          [
+            "Bulletin_549",
+            "Situation_549_WESTERN"
+          ],
+          [
+            "Bulletin_550",
+            "Situation_550_WESTERN"
+          ],
+          [
+            "Bulletin_551",
+            "Situation_551_WESTERN"
+          ],
+          [
+            "Bulletin_552",
+            "Situation_552_WESTERN"
+          ],
+          [
+            "Bulletin_553",
+            "Situation_553_WESTERN"
+          ],
+          [
+            "Bulletin_554",
+            "Situation_554_WESTERN"
+          ],
+          [
+            "Bulletin_558",
+            "Situation_558_WESTERN"
+          ],
+          [
+            "Bulletin_559",
+            "Situation_559_WESTERN"
+          ],
+          [
+            "Bulletin_560",
+            "Situation_560_WESTERN"
+          ],
+          [
+            "Bulletin_561",
+            "Situation_561_WESTERN"
+          ],
+          [
+            "Bulletin_562",
+            "Situation_562_WESTERN"
+          ],
+          [
+            "Bulletin_563",
+            "Situation_563_WESTERN"
+          ],
+          [
+            "Bulletin_564",
+            "Situation_564_WESTERN"
+          ],
+          [
+            "Bulletin_565",
+            "Situation_565_WESTERN"
+          ],
+          [
+            "Bulletin_566",
+            "Situation_566_WESTERN"
+          ],
+          [
+            "Bulletin_569",
+            "Situation_569_WESTERN"
+          ],
+          [
+            "Bulletin_570",
+            "Situation_570_WESTERN"
+          ],
+          [
+            "Bulletin_571",
+            "Situation_571_WESTERN"
+          ],
+          [
+            "Bulletin_572",
+            "Situation_572_WESTERN"
+          ],
+          [
+            "Bulletin_532",
+            "Situation_532_EASTERN"
+          ],
+          [
+            "Bulletin_533",
+            "Situation_533_EASTERN"
+          ],
+          [
+            "Bulletin_534",
+            "Situation_534_EASTERN"
+          ],
+          [
+            "Bulletin_535",
+            "Situation_535_EASTERN"
+          ],
+          [
+            "Bulletin_536",
+            "Situation_536_EASTERN"
+          ],
+          [
+            "Bulletin_537",
+            "Situation_537_EASTERN"
+          ],
+          [
+            "Bulletin_538",
+            "Situation_538_EASTERN"
+          ],
+          [
+            "Bulletin_539",
+            "Situation_539_EASTERN"
+          ],
+          [
+            "Bulletin_540",
+            "Situation_540_EASTERN"
+          ],
+          [
+            "Bulletin_541",
+            "Situation_541_EASTERN"
+          ],
+          [
+            "Bulletin_542",
+            "Situation_542_EASTERN"
+          ],
+          [
+            "Bulletin_544",
+            "Situation_544_EASTERN"
+          ],
+          [
+            "Bulletin_545",
+            "Situation_545_EASTERN"
+          ],
+          [
+            "Bulletin_546",
+            "Situation_546_EASTERN"
+          ],
+          [
+            "Bulletin_547",
+            "Situation_547_EASTERN"
+          ],
+          [
+            "Bulletin_548",
+            "Situation_548_EASTERN"
+          ],
+          [
+            "Bulletin_549",
+            "Situation_549_EASTERN"
+          ],
+          [
+            "Bulletin_550",
+            "Situation_550_EASTERN"
+          ],
+          [
+            "Bulletin_551",
+            "Situation_551_EASTERN"
+          ],
+          [
+            "Bulletin_552",
+            "Situation_552_EASTERN"
+          ],
+          [
+            "Bulletin_553",
+            "Situation_553_EASTERN"
+          ],
+          [
+            "Bulletin_554",
+            "Situation_554_EASTERN"
+          ],
+          [
+            "Bulletin_558",
+            "Situation_558_EASTERN"
+          ],
+          [
+            "Bulletin_559",
+            "Situation_559_EASTERN"
+          ],
+          [
+            "Bulletin_560",
+            "Situation_560_EASTERN"
+          ],
+          [
+            "Bulletin_561",
+            "Situation_561_EASTERN"
+          ],
+          [
+            "Bulletin_562",
+            "Situation_562_EASTERN"
+          ],
+          [
+            "Bulletin_563",
+            "Situation_563_EASTERN"
+          ],
+          [
+            "Bulletin_564",
+            "Situation_564_EASTERN"
+          ],
+          [
+            "Bulletin_565",
+            "Situation_565_EASTERN"
+          ],
+          [
+            "Bulletin_566",
+            "Situation_566_EASTERN"
+          ],
+          [
+            "Bulletin_567",
+            "Situation_567_EASTERN"
+          ],
+          [
+            "Bulletin_568",
+            "Situation_568_EASTERN"
+          ],
+          [
+            "Bulletin_569",
+            "Situation_569_EASTERN"
+          ],
+          [
+            "Bulletin_570",
+            "Situation_570_EASTERN"
+          ],
+          [
+            "Bulletin_571",
+            "Situation_571_EASTERN"
+          ],
+          [
+            "Bulletin_572",
+            "Situation_572_EASTERN"
+          ]
+        ],
+        "summary": "The Western region experienced more variable conditions with 19 CALM and 16 CAUTION bulletins across 35 reports, indicating periodic pest activity requiring monitoring. In contrast, the Eastern region remained consistently stable with all 37 bulletins rated as CALM, suggesting no significant locust threat during the analyzed period. This shows the Western region faced notably greater locust pressure and volatility compared to the Eastern region's sustained absence of major locust activity."
+      }
+    },
+    {
+      "id": "qW",
+      "question": "What was the locust alert situation in the Western Region?",
+      "rag": {
+        "summary": "I cannot provide a specific answer about the Western Region's locust alert situation based on the retrieved context. While the retrieved bulletin pages (primarily from 2023-2025) include general descriptions of the FAO's color-coded warning level scheme (Green, Yellow, etc.), none of the excerpts contain substantive information about the actual alert status in the Western Region during any particular period. To answer your question accurately, I would need bulletin pages that specifically address the Western Region's current or recent locust situation and threat assessment.",
+        "chunks": [
+          {
+            "chunk_id": "559_p79",
+            "bulletin_number": 559,
+            "page": 79,
+            "year": 2025,
+            "month": "April",
+            "coverage_period": "April 2025",
+            "score": 0.6772,
+            "snippet": "page 6 of   9 No. 559 April 2025 INDIA • SITUATION During April, no locusts were seen in Rajasthan and Gujarat. • FORECAST No signiﬁ cant developments are likely. ISLAMIC REPUBLIC OF IRAN • SITUATION During April, no locusts were seen in the southwest coast near  Abadan (3021N/4817E), in the southeast interior near Iranshahr  (2712N/6042E), and further north in South Khorasan province. • FORECAST "
+          },
+          {
+            "chunk_id": "557_p97",
+            "bulletin_number": 557,
+            "page": 97,
+            "year": 2025,
+            "month": "February",
+            "coverage_period": "February 2025",
+            "score": 0.673,
+            "snippet": "page 6 of   9 No. 557 February 2025 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green (calm) – calm situation (low alert); no threat to crops  (maintain regular monitoring) • Yellow (caution) – cautious situation (moderate alert);  potential threat to crops (increased"
+          },
+          {
+            "chunk_id": "562_p52",
+            "bulletin_number": 562,
+            "page": 52,
+            "year": 2025,
+            "month": "July",
+            "coverage_period": "July 2025",
+            "score": 0.6712,
+            "snippet": "page 6 of   9 No. 562 July 2025 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green (calm) – calm situation (low alert); no threat to crops  (maintain regular monitoring) • Yellow (caution) – cautious situation (moderate alert);  potential threat to crops (increased vig"
+          },
+          {
+            "chunk_id": "561_p61",
+            "bulletin_number": 561,
+            "page": 61,
+            "year": 2025,
+            "month": "June",
+            "coverage_period": "June 2025",
+            "score": 0.6698,
+            "snippet": "page 6 of   9 No. 561 June 2025 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green (calm) – calm situation (low alert); no threat to crops  (maintain regular monitoring) • Yellow (caution) – cautious situation (moderate alert);  potential threat to crops (increased vig"
+          },
+          {
+            "chunk_id": "550_p55",
+            "bulletin_number": 550,
+            "page": 55,
+            "year": 2024,
+            "month": "July",
+            "coverage_period": "July 2024",
+            "score": 0.6659,
+            "snippet": "page 5 of   8 No. 550 July 2024 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green – calm situation (low alert); no threat to crops (maintain  regular monitoring) • Yellow – cautious situation (moderate alert); potential threat  to crops (increased vigilance, control m"
+          },
+          {
+            "chunk_id": "540_p72",
+            "bulletin_number": 540,
+            "page": 72,
+            "year": 2023,
+            "month": "September",
+            "coverage_period": "September 2023",
+            "score": 0.6642,
+            "snippet": "page 7 of   8 No. 540 September 2023 Ghana, Guinea, Guinea-Bissau, Liberia, Nigeria, Sierre  Leone and Togo Central •  Locust-affected countries along the Red Sea: Djibouti,  Egypt, Eritrea, Ethiopia, Oman, Saudi Arabia, Somalia,  Sudan, Yemen; during upsurges and plagues only: Bahrain,  D.R. Congo, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon,  Palestine, Qatar, South Sudan, Syria, Tanzania, Turk"
+          },
+          {
+            "chunk_id": "533_p14",
+            "bulletin_number": 533,
+            "page": 14,
+            "year": 2023,
+            "month": "February",
+            "coverage_period": "February 2023",
+            "score": 0.6612,
+            "snippet": "page 6 of   8 No. 533 February 2023 and the onset of recessions; can be regional or major Warning levels Green • \tCalm. Low alert. No threat to crops; maintain regular surveys  and monitoring Yellow • \tCaution. Moderate alert. Potential threat to crops; increased  vigilance is required; control operations may be needed Orange • \tSerious. High alert. Threat to crops; survey and control  operations "
+          },
+          {
+            "chunk_id": "549_p47",
+            "bulletin_number": 549,
+            "page": 47,
+            "year": 2024,
+            "month": "June",
+            "coverage_period": "June 2024",
+            "score": 0.6611,
+            "snippet": "page 5 of   8 No. 549 June 2024 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green – calm situation (low alert); no threat to crops (maintain  regular monitoring) • Yellow – cautious situation (moderate alert); potential threat  to crops (increased vigilance, control m"
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": true,
+        "traversal_path": "Bulletin -[has_situation]-> Situation | regions: WESTERN",
+        "nodes_visited": 70,
+        "edges_traversed": 35,
+        "type": "alert_multi_region",
+        "alerts_by_region": {
+          "WESTERN": [
+            {
+              "bulletin": 532,
+              "year": 2023,
+              "coverage": "January 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 533,
+              "year": 2023,
+              "coverage": "February 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 534,
+              "year": 2023,
+              "coverage": "March 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 535,
+              "year": 2023,
+              "coverage": "April 2023",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 536,
+              "year": 2023,
+              "coverage": "May 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 537,
+              "year": 2023,
+              "coverage": "June 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 538,
+              "year": 2023,
+              "coverage": "July 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 539,
+              "year": 2023,
+              "coverage": "August 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 540,
+              "year": 2023,
+              "coverage": "September 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 541,
+              "year": 2023,
+              "coverage": "October 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 542,
+              "year": 2023,
+              "coverage": "November 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 544,
+              "year": 2024,
+              "coverage": "January 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 545,
+              "year": 2024,
+              "coverage": "February 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 546,
+              "year": 2024,
+              "coverage": "March 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 547,
+              "year": 2024,
+              "coverage": "April 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 548,
+              "year": 2024,
+              "coverage": "May 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 549,
+              "year": 2024,
+              "coverage": "June 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 550,
+              "year": 2024,
+              "coverage": "July 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 551,
+              "year": 2024,
+              "coverage": "August 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 552,
+              "year": 2024,
+              "coverage": "September 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 553,
+              "year": 2024,
+              "coverage": "October 2024",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 554,
+              "year": 2024,
+              "coverage": "November 2024",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 558,
+              "year": 2025,
+              "coverage": "March 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 559,
+              "year": 2025,
+              "coverage": "April 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 560,
+              "year": 2025,
+              "coverage": "May 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 561,
+              "year": 2025,
+              "coverage": "June 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 562,
+              "year": 2025,
+              "coverage": "July 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 563,
+              "year": 2025,
+              "coverage": "August 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 564,
+              "year": 2025,
+              "coverage": "September 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 565,
+              "year": 2025,
+              "coverage": "October 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 566,
+              "year": 2025,
+              "coverage": "November 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 569,
+              "year": 2026,
+              "coverage": "February 2026",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 570,
+              "year": 2026,
+              "coverage": "March 2026",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 571,
+              "year": 2026,
+              "coverage": "April 2026",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 572,
+              "year": 2026,
+              "coverage": "May 2026",
+              "alert": "CAUTION"
+            }
+          ]
+        },
+        "trav_nodes": [
+          "Bulletin_548",
+          "Situation_570_WESTERN",
+          "Bulletin_539",
+          "Situation_565_WESTERN",
+          "Situation_539_WESTERN",
+          "Situation_546_WESTERN",
+          "Bulletin_535",
+          "Situation_542_WESTERN",
+          "Bulletin_533",
+          "Situation_552_WESTERN",
+          "Bulletin_561",
+          "Situation_564_WESTERN",
+          "Bulletin_546",
+          "Bulletin_534",
+          "Bulletin_540",
+          "Situation_566_WESTERN",
+          "Situation_544_WESTERN",
+          "Bulletin_563",
+          "Situation_550_WESTERN",
+          "Bulletin_549",
+          "Situation_563_WESTERN",
+          "Situation_538_WESTERN",
+          "Situation_540_WESTERN",
+          "Bulletin_564",
+          "Bulletin_562",
+          "Situation_560_WESTERN",
+          "Situation_535_WESTERN",
+          "Situation_562_WESTERN",
+          "Bulletin_566",
+          "Situation_569_WESTERN",
+          "Bulletin_571",
+          "Situation_532_WESTERN",
+          "Situation_533_WESTERN",
+          "Situation_537_WESTERN",
+          "Bulletin_550",
+          "Bulletin_551",
+          "Bulletin_553",
+          "Bulletin_570",
+          "Situation_534_WESTERN",
+          "Bulletin_572",
+          "Bulletin_541",
+          "Bulletin_565",
+          "Bulletin_537",
+          "Bulletin_544",
+          "Situation_558_WESTERN",
+          "Bulletin_559",
+          "Situation_536_WESTERN",
+          "Situation_541_WESTERN",
+          "Situation_561_WESTERN",
+          "Bulletin_554",
+          "Situation_548_WESTERN",
+          "Bulletin_545",
+          "Bulletin_538",
+          "Situation_545_WESTERN",
+          "Situation_572_WESTERN",
+          "Situation_547_WESTERN",
+          "Situation_549_WESTERN",
+          "Bulletin_552",
+          "Bulletin_560",
+          "Bulletin_542",
+          "Bulletin_532",
+          "Situation_554_WESTERN",
+          "Bulletin_536",
+          "Bulletin_547",
+          "Situation_553_WESTERN",
+          "Bulletin_558",
+          "Bulletin_569",
+          "Situation_551_WESTERN",
+          "Situation_559_WESTERN",
+          "Situation_571_WESTERN"
+        ],
+        "trav_edges": [
+          [
+            "Bulletin_532",
+            "Situation_532_WESTERN"
+          ],
+          [
+            "Bulletin_533",
+            "Situation_533_WESTERN"
+          ],
+          [
+            "Bulletin_534",
+            "Situation_534_WESTERN"
+          ],
+          [
+            "Bulletin_535",
+            "Situation_535_WESTERN"
+          ],
+          [
+            "Bulletin_536",
+            "Situation_536_WESTERN"
+          ],
+          [
+            "Bulletin_537",
+            "Situation_537_WESTERN"
+          ],
+          [
+            "Bulletin_538",
+            "Situation_538_WESTERN"
+          ],
+          [
+            "Bulletin_539",
+            "Situation_539_WESTERN"
+          ],
+          [
+            "Bulletin_540",
+            "Situation_540_WESTERN"
+          ],
+          [
+            "Bulletin_541",
+            "Situation_541_WESTERN"
+          ],
+          [
+            "Bulletin_542",
+            "Situation_542_WESTERN"
+          ],
+          [
+            "Bulletin_544",
+            "Situation_544_WESTERN"
+          ],
+          [
+            "Bulletin_545",
+            "Situation_545_WESTERN"
+          ],
+          [
+            "Bulletin_546",
+            "Situation_546_WESTERN"
+          ],
+          [
+            "Bulletin_547",
+            "Situation_547_WESTERN"
+          ],
+          [
+            "Bulletin_548",
+            "Situation_548_WESTERN"
+          ],
+          [
+            "Bulletin_549",
+            "Situation_549_WESTERN"
+          ],
+          [
+            "Bulletin_550",
+            "Situation_550_WESTERN"
+          ],
+          [
+            "Bulletin_551",
+            "Situation_551_WESTERN"
+          ],
+          [
+            "Bulletin_552",
+            "Situation_552_WESTERN"
+          ],
+          [
+            "Bulletin_553",
+            "Situation_553_WESTERN"
+          ],
+          [
+            "Bulletin_554",
+            "Situation_554_WESTERN"
+          ],
+          [
+            "Bulletin_558",
+            "Situation_558_WESTERN"
+          ],
+          [
+            "Bulletin_559",
+            "Situation_559_WESTERN"
+          ],
+          [
+            "Bulletin_560",
+            "Situation_560_WESTERN"
+          ],
+          [
+            "Bulletin_561",
+            "Situation_561_WESTERN"
+          ],
+          [
+            "Bulletin_562",
+            "Situation_562_WESTERN"
+          ],
+          [
+            "Bulletin_563",
+            "Situation_563_WESTERN"
+          ],
+          [
+            "Bulletin_564",
+            "Situation_564_WESTERN"
+          ],
+          [
+            "Bulletin_565",
+            "Situation_565_WESTERN"
+          ],
+          [
+            "Bulletin_566",
+            "Situation_566_WESTERN"
+          ],
+          [
+            "Bulletin_569",
+            "Situation_569_WESTERN"
+          ],
+          [
+            "Bulletin_570",
+            "Situation_570_WESTERN"
+          ],
+          [
+            "Bulletin_571",
+            "Situation_571_WESTERN"
+          ],
+          [
+            "Bulletin_572",
+            "Situation_572_WESTERN"
+          ]
+        ],
+        "summary": "# Western Region Locust Alert Summary\n\nThe Western Region demonstrated a predominantly stable situation across 35 FAO Desert Locust Bulletins, with 19 bulletins (54%) reporting CALM conditions and 16 bulletins (46%) reporting CAUTION alert levels. This indicates that while the majority of monitoring periods showed no significant threat activity, a substantial portion of observations warranted continued vigilance. The region did not experience any escalation to higher alert levels during the monitored period."
+      }
+    },
+    {
+      "id": "qC",
+      "question": "What was the locust alert situation in the Central Region?",
+      "rag": {
+        "summary": "I cannot provide a specific answer about the Central Region's locust alert situation based on the retrieved context. The pages shown contain only the general colour-coded warning level scheme definitions (Green, Yellow, Orange alerts) from various FAO bulletins between June 2023 and July 2025, but do not include actual situation reports for any specific geographic region labeled as \"Central Region.\" To answer your question accurately, I would need bulletin pages that contain regional situation assessments and current alert levels.",
+        "chunks": [
+          {
+            "chunk_id": "557_p97",
+            "bulletin_number": 557,
+            "page": 97,
+            "year": 2025,
+            "month": "February",
+            "coverage_period": "February 2025",
+            "score": 0.6722,
+            "snippet": "page 6 of   9 No. 557 February 2025 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green (calm) – calm situation (low alert); no threat to crops  (maintain regular monitoring) • Yellow (caution) – cautious situation (moderate alert);  potential threat to crops (increased"
+          },
+          {
+            "chunk_id": "559_p79",
+            "bulletin_number": 559,
+            "page": 79,
+            "year": 2025,
+            "month": "April",
+            "coverage_period": "April 2025",
+            "score": 0.671,
+            "snippet": "page 6 of   9 No. 559 April 2025 INDIA • SITUATION During April, no locusts were seen in Rajasthan and Gujarat. • FORECAST No signiﬁ cant developments are likely. ISLAMIC REPUBLIC OF IRAN • SITUATION During April, no locusts were seen in the southwest coast near  Abadan (3021N/4817E), in the southeast interior near Iranshahr  (2712N/6042E), and further north in South Khorasan province. • FORECAST "
+          },
+          {
+            "chunk_id": "562_p52",
+            "bulletin_number": 562,
+            "page": 52,
+            "year": 2025,
+            "month": "July",
+            "coverage_period": "July 2025",
+            "score": 0.6706,
+            "snippet": "page 6 of   9 No. 562 July 2025 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green (calm) – calm situation (low alert); no threat to crops  (maintain regular monitoring) • Yellow (caution) – cautious situation (moderate alert);  potential threat to crops (increased vig"
+          },
+          {
+            "chunk_id": "561_p61",
+            "bulletin_number": 561,
+            "page": 61,
+            "year": 2025,
+            "month": "June",
+            "coverage_period": "June 2025",
+            "score": 0.6698,
+            "snippet": "page 6 of   9 No. 561 June 2025 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green (calm) – calm situation (low alert); no threat to crops  (maintain regular monitoring) • Yellow (caution) – cautious situation (moderate alert);  potential threat to crops (increased vig"
+          },
+          {
+            "chunk_id": "550_p55",
+            "bulletin_number": 550,
+            "page": 55,
+            "year": 2024,
+            "month": "July",
+            "coverage_period": "July 2024",
+            "score": 0.6657,
+            "snippet": "page 5 of   8 No. 550 July 2024 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green – calm situation (low alert); no threat to crops (maintain  regular monitoring) • Yellow – cautious situation (moderate alert); potential threat  to crops (increased vigilance, control m"
+          },
+          {
+            "chunk_id": "549_p47",
+            "bulletin_number": 549,
+            "page": 47,
+            "year": 2024,
+            "month": "June",
+            "coverage_period": "June 2024",
+            "score": 0.6608,
+            "snippet": "page 5 of   8 No. 549 June 2024 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green – calm situation (low alert); no threat to crops (maintain  regular monitoring) • Yellow – cautious situation (moderate alert); potential threat  to crops (increased vigilance, control m"
+          },
+          {
+            "chunk_id": "534_p21",
+            "bulletin_number": 534,
+            "page": 21,
+            "year": 2023,
+            "month": "March",
+            "coverage_period": "March 2023",
+            "score": 0.6607,
+            "snippet": "page 5 of   8 No. 534 March 2023 • Green – calm situation (low alert); no threat to crops (maintain  regular monitoring) • Yellow – cautious situation (moderate alert); potential threat  to crops (increased vigilance, control may be needed) • Orange – serious situation (high alert); threat to crops  (survey and control must be undertaken) • Red – dangerous situation (very high alert); signiﬁ cant "
+          },
+          {
+            "chunk_id": "537_p45",
+            "bulletin_number": 537,
+            "page": 45,
+            "year": 2023,
+            "month": "June",
+            "coverage_period": "June 2023",
+            "score": 0.6558,
+            "snippet": "page 5 of   8 No. 537 June 2023 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green – calm situation (low alert); no threat to crops (maintain  regular monitoring) • Yellow – cautious situation (moderate alert); potential threat  to crops (increased vigilance, control m"
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": true,
+        "traversal_path": "Bulletin -[has_situation]-> Situation | regions: CENTRAL",
+        "nodes_visited": 74,
+        "edges_traversed": 37,
+        "type": "alert_multi_region",
+        "alerts_by_region": {
+          "CENTRAL": [
+            {
+              "bulletin": 532,
+              "year": 2023,
+              "coverage": "January 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 533,
+              "year": 2023,
+              "coverage": "February 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 534,
+              "year": 2023,
+              "coverage": "March 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 535,
+              "year": 2023,
+              "coverage": "April 2023",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 536,
+              "year": 2023,
+              "coverage": "May 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 537,
+              "year": 2023,
+              "coverage": "June 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 538,
+              "year": 2023,
+              "coverage": "July 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 539,
+              "year": 2023,
+              "coverage": "August 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 540,
+              "year": 2023,
+              "coverage": "September 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 541,
+              "year": 2023,
+              "coverage": "October 2023",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 542,
+              "year": 2023,
+              "coverage": "November 2023",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 544,
+              "year": 2024,
+              "coverage": "January 2024",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 545,
+              "year": 2024,
+              "coverage": "February 2024",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 546,
+              "year": 2024,
+              "coverage": "March 2024",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 547,
+              "year": 2024,
+              "coverage": "April 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 548,
+              "year": 2024,
+              "coverage": "May 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 549,
+              "year": 2024,
+              "coverage": "June 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 550,
+              "year": 2024,
+              "coverage": "July 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 551,
+              "year": 2024,
+              "coverage": "August 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 552,
+              "year": 2024,
+              "coverage": "September 2024",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 553,
+              "year": 2024,
+              "coverage": "October 2024",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 554,
+              "year": 2024,
+              "coverage": "November 2024",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 558,
+              "year": 2025,
+              "coverage": "March 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 559,
+              "year": 2025,
+              "coverage": "April 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 560,
+              "year": 2025,
+              "coverage": "May 2025",
+              "alert": "CAUTION"
+            },
+            {
+              "bulletin": 561,
+              "year": 2025,
+              "coverage": "June 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 562,
+              "year": 2025,
+              "coverage": "July 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 563,
+              "year": 2025,
+              "coverage": "August 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 564,
+              "year": 2025,
+              "coverage": "September 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 565,
+              "year": 2025,
+              "coverage": "October 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 566,
+              "year": 2025,
+              "coverage": "November 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 567,
+              "year": 2025,
+              "coverage": "December 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 568,
+              "year": 2026,
+              "coverage": "January 2026",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 569,
+              "year": 2026,
+              "coverage": "February 2026",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 570,
+              "year": 2026,
+              "coverage": "March 2026",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 571,
+              "year": 2026,
+              "coverage": "April 2026",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 572,
+              "year": 2026,
+              "coverage": "May 2026",
+              "alert": "CALM"
+            }
+          ]
+        },
+        "trav_nodes": [
+          "Situation_538_CENTRAL",
+          "Bulletin_548",
+          "Situation_549_CENTRAL",
+          "Situation_566_CENTRAL",
+          "Bulletin_539",
+          "Situation_535_CENTRAL",
+          "Situation_545_CENTRAL",
+          "Situation_553_CENTRAL",
+          "Situation_558_CENTRAL",
+          "Situation_548_CENTRAL",
+          "Bulletin_535",
+          "Situation_547_CENTRAL",
+          "Bulletin_533",
+          "Bulletin_561",
+          "Situation_568_CENTRAL",
+          "Situation_571_CENTRAL",
+          "Bulletin_546",
+          "Bulletin_534",
+          "Bulletin_540",
+          "Situation_532_CENTRAL",
+          "Bulletin_563",
+          "Bulletin_549",
+          "Situation_533_CENTRAL",
+          "Situation_539_CENTRAL",
+          "Situation_546_CENTRAL",
+          "Bulletin_564",
+          "Situation_561_CENTRAL",
+          "Bulletin_562",
+          "Bulletin_566",
+          "Bulletin_571",
+          "Bulletin_560",
+          "Bulletin_568",
+          "Situation_534_CENTRAL",
+          "Situation_541_CENTRAL",
+          "Situation_542_CENTRAL",
+          "Bulletin_550",
+          "Bulletin_551",
+          "Bulletin_553",
+          "Bulletin_570",
+          "Bulletin_572",
+          "Situation_564_CENTRAL",
+          "Bulletin_541",
+          "Situation_565_CENTRAL",
+          "Bulletin_565",
+          "Bulletin_537",
+          "Situation_570_CENTRAL",
+          "Situation_536_CENTRAL",
+          "Bulletin_544",
+          "Bulletin_559",
+          "Situation_550_CENTRAL",
+          "Situation_563_CENTRAL",
+          "Situation_567_CENTRAL",
+          "Situation_559_CENTRAL",
+          "Bulletin_567",
+          "Bulletin_554",
+          "Bulletin_545",
+          "Bulletin_538",
+          "Bulletin_552",
+          "Situation_569_CENTRAL",
+          "Situation_560_CENTRAL",
+          "Situation_551_CENTRAL",
+          "Situation_540_CENTRAL",
+          "Situation_544_CENTRAL",
+          "Bulletin_542",
+          "Bulletin_532",
+          "Situation_537_CENTRAL",
+          "Bulletin_536",
+          "Bulletin_547",
+          "Bulletin_558",
+          "Situation_562_CENTRAL",
+          "Situation_552_CENTRAL",
+          "Situation_554_CENTRAL",
+          "Bulletin_569",
+          "Situation_572_CENTRAL"
+        ],
+        "trav_edges": [
+          [
+            "Bulletin_532",
+            "Situation_532_CENTRAL"
+          ],
+          [
+            "Bulletin_533",
+            "Situation_533_CENTRAL"
+          ],
+          [
+            "Bulletin_534",
+            "Situation_534_CENTRAL"
+          ],
+          [
+            "Bulletin_535",
+            "Situation_535_CENTRAL"
+          ],
+          [
+            "Bulletin_536",
+            "Situation_536_CENTRAL"
+          ],
+          [
+            "Bulletin_537",
+            "Situation_537_CENTRAL"
+          ],
+          [
+            "Bulletin_538",
+            "Situation_538_CENTRAL"
+          ],
+          [
+            "Bulletin_539",
+            "Situation_539_CENTRAL"
+          ],
+          [
+            "Bulletin_540",
+            "Situation_540_CENTRAL"
+          ],
+          [
+            "Bulletin_541",
+            "Situation_541_CENTRAL"
+          ],
+          [
+            "Bulletin_542",
+            "Situation_542_CENTRAL"
+          ],
+          [
+            "Bulletin_544",
+            "Situation_544_CENTRAL"
+          ],
+          [
+            "Bulletin_545",
+            "Situation_545_CENTRAL"
+          ],
+          [
+            "Bulletin_546",
+            "Situation_546_CENTRAL"
+          ],
+          [
+            "Bulletin_547",
+            "Situation_547_CENTRAL"
+          ],
+          [
+            "Bulletin_548",
+            "Situation_548_CENTRAL"
+          ],
+          [
+            "Bulletin_549",
+            "Situation_549_CENTRAL"
+          ],
+          [
+            "Bulletin_550",
+            "Situation_550_CENTRAL"
+          ],
+          [
+            "Bulletin_551",
+            "Situation_551_CENTRAL"
+          ],
+          [
+            "Bulletin_552",
+            "Situation_552_CENTRAL"
+          ],
+          [
+            "Bulletin_553",
+            "Situation_553_CENTRAL"
+          ],
+          [
+            "Bulletin_554",
+            "Situation_554_CENTRAL"
+          ],
+          [
+            "Bulletin_558",
+            "Situation_558_CENTRAL"
+          ],
+          [
+            "Bulletin_559",
+            "Situation_559_CENTRAL"
+          ],
+          [
+            "Bulletin_560",
+            "Situation_560_CENTRAL"
+          ],
+          [
+            "Bulletin_561",
+            "Situation_561_CENTRAL"
+          ],
+          [
+            "Bulletin_562",
+            "Situation_562_CENTRAL"
+          ],
+          [
+            "Bulletin_563",
+            "Situation_563_CENTRAL"
+          ],
+          [
+            "Bulletin_564",
+            "Situation_564_CENTRAL"
+          ],
+          [
+            "Bulletin_565",
+            "Situation_565_CENTRAL"
+          ],
+          [
+            "Bulletin_566",
+            "Situation_566_CENTRAL"
+          ],
+          [
+            "Bulletin_567",
+            "Situation_567_CENTRAL"
+          ],
+          [
+            "Bulletin_568",
+            "Situation_568_CENTRAL"
+          ],
+          [
+            "Bulletin_569",
+            "Situation_569_CENTRAL"
+          ],
+          [
+            "Bulletin_570",
+            "Situation_570_CENTRAL"
+          ],
+          [
+            "Bulletin_571",
+            "Situation_571_CENTRAL"
+          ],
+          [
+            "Bulletin_572",
+            "Situation_572_CENTRAL"
+          ]
+        ],
+        "summary": "# Central Region Desert Locust Alert Summary\n\nThe Central Region showed predominantly calm conditions across 25 bulletins, indicating minimal locust activity and low threat levels during the reporting period. However, caution alerts were issued in 12 bulletins, suggesting periodic instances of elevated locust presence or breeding potential that warranted monitoring. Overall, the region maintained relatively stable conditions with locust threats remaining generally under control, though vigilance was necessary in specific timeframes or locations where caution status was declared."
+      }
+    },
+    {
+      "id": "qE",
+      "question": "What was the locust alert situation in the Eastern Region?",
+      "rag": {
+        "summary": "I cannot provide a specific answer about the Eastern Region's locust alert situation based on the retrieved context. While the provided bulletin pages contain general information about the FAO's color-coded warning level system (Green for calm/low alert, Yellow for caution/moderate alert, etc.) and mention specific country situations in Bulletin 559 (April 2025) and Bulletin 541 (October 2023), they do not include detailed information specifically about an \"Eastern Region\" alert status. To answer your question accurately, I would need bulletin pages that explicitly discuss the Eastern Region's locust situation and corresponding alert level.",
+        "chunks": [
+          {
+            "chunk_id": "559_p79",
+            "bulletin_number": 559,
+            "page": 79,
+            "year": 2025,
+            "month": "April",
+            "coverage_period": "April 2025",
+            "score": 0.6968,
+            "snippet": "page 6 of   9 No. 559 April 2025 INDIA • SITUATION During April, no locusts were seen in Rajasthan and Gujarat. • FORECAST No signiﬁ cant developments are likely. ISLAMIC REPUBLIC OF IRAN • SITUATION During April, no locusts were seen in the southwest coast near  Abadan (3021N/4817E), in the southeast interior near Iranshahr  (2712N/6042E), and further north in South Khorasan province. • FORECAST "
+          },
+          {
+            "chunk_id": "557_p97",
+            "bulletin_number": 557,
+            "page": 97,
+            "year": 2025,
+            "month": "February",
+            "coverage_period": "February 2025",
+            "score": 0.6743,
+            "snippet": "page 6 of   9 No. 557 February 2025 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green (calm) – calm situation (low alert); no threat to crops  (maintain regular monitoring) • Yellow (caution) – cautious situation (moderate alert);  potential threat to crops (increased"
+          },
+          {
+            "chunk_id": "562_p52",
+            "bulletin_number": 562,
+            "page": 52,
+            "year": 2025,
+            "month": "July",
+            "coverage_period": "July 2025",
+            "score": 0.6723,
+            "snippet": "page 6 of   9 No. 562 July 2025 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green (calm) – calm situation (low alert); no threat to crops  (maintain regular monitoring) • Yellow (caution) – cautious situation (moderate alert);  potential threat to crops (increased vig"
+          },
+          {
+            "chunk_id": "561_p61",
+            "bulletin_number": 561,
+            "page": 61,
+            "year": 2025,
+            "month": "June",
+            "coverage_period": "June 2025",
+            "score": 0.6712,
+            "snippet": "page 6 of   9 No. 561 June 2025 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green (calm) – calm situation (low alert); no threat to crops  (maintain regular monitoring) • Yellow (caution) – cautious situation (moderate alert);  potential threat to crops (increased vig"
+          },
+          {
+            "chunk_id": "541_p76",
+            "bulletin_number": 541,
+            "page": 76,
+            "year": 2023,
+            "month": "October",
+            "coverage_period": "October 2023",
+            "score": 0.6704,
+            "snippet": "page 3 of   9 No. 541 October 2023 CHAD • SITUATION  During October, isolated second and third-instar hoppers were  seen in the ﬁ rst week near Kalait (1550N/2054E) in the east  while ﬂ edglings were  observed in a few places northwest of  Fada (1714N/2132E) in the second week. Elsewhere, isolated  maturing and mature solitarious adults were seen in the west near  Nokou (1435N/1446E) and Ziguey (1"
+          },
+          {
+            "chunk_id": "533_p14",
+            "bulletin_number": 533,
+            "page": 14,
+            "year": 2023,
+            "month": "February",
+            "coverage_period": "February 2023",
+            "score": 0.6685,
+            "snippet": "page 6 of   8 No. 533 February 2023 and the onset of recessions; can be regional or major Warning levels Green • \tCalm. Low alert. No threat to crops; maintain regular surveys  and monitoring Yellow • \tCaution. Moderate alert. Potential threat to crops; increased  vigilance is required; control operations may be needed Orange • \tSerious. High alert. Threat to crops; survey and control  operations "
+          },
+          {
+            "chunk_id": "550_p55",
+            "bulletin_number": 550,
+            "page": 55,
+            "year": 2024,
+            "month": "July",
+            "coverage_period": "July 2024",
+            "score": 0.6684,
+            "snippet": "page 5 of   8 No. 550 July 2024 Locust warning levels A colour-coded scheme indicates the alert level, perceived  risk, or threat of current Desert Locust infestations to crops,  and appropriate response:  • Green – calm situation (low alert); no threat to crops (maintain  regular monitoring) • Yellow – cautious situation (moderate alert); potential threat  to crops (increased vigilance, control m"
+          },
+          {
+            "chunk_id": "540_p72",
+            "bulletin_number": 540,
+            "page": 72,
+            "year": 2023,
+            "month": "September",
+            "coverage_period": "September 2023",
+            "score": 0.6668,
+            "snippet": "page 7 of   8 No. 540 September 2023 Ghana, Guinea, Guinea-Bissau, Liberia, Nigeria, Sierre  Leone and Togo Central •  Locust-affected countries along the Red Sea: Djibouti,  Egypt, Eritrea, Ethiopia, Oman, Saudi Arabia, Somalia,  Sudan, Yemen; during upsurges and plagues only: Bahrain,  D.R. Congo, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon,  Palestine, Qatar, South Sudan, Syria, Tanzania, Turk"
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": true,
+        "traversal_path": "Bulletin -[has_situation]-> Situation | regions: EASTERN",
+        "nodes_visited": 74,
+        "edges_traversed": 37,
+        "type": "alert_multi_region",
+        "alerts_by_region": {
+          "EASTERN": [
+            {
+              "bulletin": 532,
+              "year": 2023,
+              "coverage": "January 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 533,
+              "year": 2023,
+              "coverage": "February 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 534,
+              "year": 2023,
+              "coverage": "March 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 535,
+              "year": 2023,
+              "coverage": "April 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 536,
+              "year": 2023,
+              "coverage": "May 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 537,
+              "year": 2023,
+              "coverage": "June 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 538,
+              "year": 2023,
+              "coverage": "July 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 539,
+              "year": 2023,
+              "coverage": "August 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 540,
+              "year": 2023,
+              "coverage": "September 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 541,
+              "year": 2023,
+              "coverage": "October 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 542,
+              "year": 2023,
+              "coverage": "November 2023",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 544,
+              "year": 2024,
+              "coverage": "January 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 545,
+              "year": 2024,
+              "coverage": "February 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 546,
+              "year": 2024,
+              "coverage": "March 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 547,
+              "year": 2024,
+              "coverage": "April 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 548,
+              "year": 2024,
+              "coverage": "May 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 549,
+              "year": 2024,
+              "coverage": "June 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 550,
+              "year": 2024,
+              "coverage": "July 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 551,
+              "year": 2024,
+              "coverage": "August 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 552,
+              "year": 2024,
+              "coverage": "September 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 553,
+              "year": 2024,
+              "coverage": "October 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 554,
+              "year": 2024,
+              "coverage": "November 2024",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 558,
+              "year": 2025,
+              "coverage": "March 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 559,
+              "year": 2025,
+              "coverage": "April 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 560,
+              "year": 2025,
+              "coverage": "May 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 561,
+              "year": 2025,
+              "coverage": "June 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 562,
+              "year": 2025,
+              "coverage": "July 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 563,
+              "year": 2025,
+              "coverage": "August 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 564,
+              "year": 2025,
+              "coverage": "September 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 565,
+              "year": 2025,
+              "coverage": "October 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 566,
+              "year": 2025,
+              "coverage": "November 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 567,
+              "year": 2025,
+              "coverage": "December 2025",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 568,
+              "year": 2026,
+              "coverage": "January 2026",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 569,
+              "year": 2026,
+              "coverage": "February 2026",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 570,
+              "year": 2026,
+              "coverage": "March 2026",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 571,
+              "year": 2026,
+              "coverage": "April 2026",
+              "alert": "CALM"
+            },
+            {
+              "bulletin": 572,
+              "year": 2026,
+              "coverage": "May 2026",
+              "alert": "CALM"
+            }
+          ]
+        },
+        "trav_nodes": [
+          "Situation_532_EASTERN",
+          "Bulletin_548",
+          "Situation_552_EASTERN",
+          "Situation_534_EASTERN",
+          "Bulletin_539",
+          "Bulletin_558",
+          "Situation_544_EASTERN",
+          "Situation_536_EASTERN",
+          "Situation_570_EASTERN",
+          "Situation_566_EASTERN",
+          "Situation_537_EASTERN",
+          "Situation_549_EASTERN",
+          "Bulletin_535",
+          "Situation_541_EASTERN",
+          "Bulletin_533",
+          "Bulletin_561",
+          "Situation_561_EASTERN",
+          "Situation_569_EASTERN",
+          "Bulletin_546",
+          "Bulletin_534",
+          "Bulletin_540",
+          "Situation_542_EASTERN",
+          "Situation_551_EASTERN",
+          "Bulletin_563",
+          "Situation_540_EASTERN",
+          "Situation_538_EASTERN",
+          "Bulletin_549",
+          "Situation_564_EASTERN",
+          "Situation_535_EASTERN",
+          "Bulletin_564",
+          "Bulletin_562",
+          "Bulletin_566",
+          "Bulletin_571",
+          "Bulletin_568",
+          "Situation_562_EASTERN",
+          "Situation_572_EASTERN",
+          "Bulletin_550",
+          "Bulletin_551",
+          "Bulletin_570",
+          "Bulletin_553",
+          "Bulletin_572",
+          "Situation_565_EASTERN",
+          "Bulletin_541",
+          "Bulletin_565",
+          "Situation_533_EASTERN",
+          "Bulletin_537",
+          "Situation_554_EASTERN",
+          "Bulletin_544",
+          "Bulletin_559",
+          "Situation_548_EASTERN",
+          "Situation_553_EASTERN",
+          "Situation_546_EASTERN",
+          "Bulletin_567",
+          "Bulletin_554",
+          "Situation_563_EASTERN",
+          "Bulletin_545",
+          "Situation_567_EASTERN",
+          "Bulletin_538",
+          "Bulletin_552",
+          "Situation_560_EASTERN",
+          "Bulletin_560",
+          "Situation_539_EASTERN",
+          "Situation_559_EASTERN",
+          "Bulletin_542",
+          "Bulletin_532",
+          "Situation_545_EASTERN",
+          "Bulletin_536",
+          "Bulletin_547",
+          "Situation_558_EASTERN",
+          "Situation_550_EASTERN",
+          "Situation_568_EASTERN",
+          "Situation_547_EASTERN",
+          "Bulletin_569",
+          "Situation_571_EASTERN"
+        ],
+        "trav_edges": [
+          [
+            "Bulletin_532",
+            "Situation_532_EASTERN"
+          ],
+          [
+            "Bulletin_533",
+            "Situation_533_EASTERN"
+          ],
+          [
+            "Bulletin_534",
+            "Situation_534_EASTERN"
+          ],
+          [
+            "Bulletin_535",
+            "Situation_535_EASTERN"
+          ],
+          [
+            "Bulletin_536",
+            "Situation_536_EASTERN"
+          ],
+          [
+            "Bulletin_537",
+            "Situation_537_EASTERN"
+          ],
+          [
+            "Bulletin_538",
+            "Situation_538_EASTERN"
+          ],
+          [
+            "Bulletin_539",
+            "Situation_539_EASTERN"
+          ],
+          [
+            "Bulletin_540",
+            "Situation_540_EASTERN"
+          ],
+          [
+            "Bulletin_541",
+            "Situation_541_EASTERN"
+          ],
+          [
+            "Bulletin_542",
+            "Situation_542_EASTERN"
+          ],
+          [
+            "Bulletin_544",
+            "Situation_544_EASTERN"
+          ],
+          [
+            "Bulletin_545",
+            "Situation_545_EASTERN"
+          ],
+          [
+            "Bulletin_546",
+            "Situation_546_EASTERN"
+          ],
+          [
+            "Bulletin_547",
+            "Situation_547_EASTERN"
+          ],
+          [
+            "Bulletin_548",
+            "Situation_548_EASTERN"
+          ],
+          [
+            "Bulletin_549",
+            "Situation_549_EASTERN"
+          ],
+          [
+            "Bulletin_550",
+            "Situation_550_EASTERN"
+          ],
+          [
+            "Bulletin_551",
+            "Situation_551_EASTERN"
+          ],
+          [
+            "Bulletin_552",
+            "Situation_552_EASTERN"
+          ],
+          [
+            "Bulletin_553",
+            "Situation_553_EASTERN"
+          ],
+          [
+            "Bulletin_554",
+            "Situation_554_EASTERN"
+          ],
+          [
+            "Bulletin_558",
+            "Situation_558_EASTERN"
+          ],
+          [
+            "Bulletin_559",
+            "Situation_559_EASTERN"
+          ],
+          [
+            "Bulletin_560",
+            "Situation_560_EASTERN"
+          ],
+          [
+            "Bulletin_561",
+            "Situation_561_EASTERN"
+          ],
+          [
+            "Bulletin_562",
+            "Situation_562_EASTERN"
+          ],
+          [
+            "Bulletin_563",
+            "Situation_563_EASTERN"
+          ],
+          [
+            "Bulletin_564",
+            "Situation_564_EASTERN"
+          ],
+          [
+            "Bulletin_565",
+            "Situation_565_EASTERN"
+          ],
+          [
+            "Bulletin_566",
+            "Situation_566_EASTERN"
+          ],
+          [
+            "Bulletin_567",
+            "Situation_567_EASTERN"
+          ],
+          [
+            "Bulletin_568",
+            "Situation_568_EASTERN"
+          ],
+          [
+            "Bulletin_569",
+            "Situation_569_EASTERN"
+          ],
+          [
+            "Bulletin_570",
+            "Situation_570_EASTERN"
+          ],
+          [
+            "Bulletin_571",
+            "Situation_571_EASTERN"
+          ],
+          [
+            "Bulletin_572",
+            "Situation_572_EASTERN"
+          ]
+        ],
+        "summary": "# Eastern Region Locust Situation\n\nBased on 37 FAO Desert Locust Bulletins covering the Eastern Region, the situation was consistently **CALM** across all reported periods. No escalations to higher alert levels (YELLOW, ORANGE, or RED) were recorded during the bulletin coverage of this region."
+      }
+    },
+    {
+      "id": "q3",
+      "question": "What ecological and weather conditions were associated with locust upsurges?",
+      "rag": {
+        "summary": "I cannot provide a sufficient answer based on the retrieved context. The pages returned contain only the standardized glossary of terminology used in Desert Locust Bulletins (specifically defining \"Isolated\" locust populations), rather than substantive content about ecological and weather conditions associated with upsurges. To answer your question about the environmental factors driving locust outbreaks, I would need bulletin pages containing situational summaries, regional reports, or analysis sections that discuss meteorological conditions, vegetation status, and breeding habitat information.",
+        "chunks": [
+          {
+            "chunk_id": "548_p40",
+            "bulletin_number": 548,
+            "page": 40,
+            "year": 2024,
+            "month": "May",
+            "coverage_period": "May 2024",
+            "score": 0.6486,
+            "snippet": "page 6 of   8 No. 548 May 2024 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking group"
+          },
+          {
+            "chunk_id": "546_p24",
+            "bulletin_number": 546,
+            "page": 24,
+            "year": 2024,
+            "month": "March",
+            "coverage_period": "March 2024",
+            "score": 0.6477,
+            "snippet": "page 6 of   8 No. 546 March 2024 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking gro"
+          },
+          {
+            "chunk_id": "549_p48",
+            "bulletin_number": 549,
+            "page": 48,
+            "year": 2024,
+            "month": "June",
+            "coverage_period": "June 2024",
+            "score": 0.6474,
+            "snippet": "page 6 of   8 No. 549 June 2024 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking grou"
+          },
+          {
+            "chunk_id": "544_p8",
+            "bulletin_number": 544,
+            "page": 8,
+            "year": 2024,
+            "month": "January",
+            "coverage_period": "January 2024",
+            "score": 0.6473,
+            "snippet": "page 6 of   8 No. 544 January 2024 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking g"
+          },
+          {
+            "chunk_id": "547_p32",
+            "bulletin_number": 547,
+            "page": 32,
+            "year": 2024,
+            "month": "April",
+            "coverage_period": "April 2024",
+            "score": 0.6469,
+            "snippet": "page 6 of   8 No. 547 April 2024 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking gro"
+          },
+          {
+            "chunk_id": "543_p96",
+            "bulletin_number": 543,
+            "page": 96,
+            "year": 2023,
+            "month": "December",
+            "coverage_period": "December 2023",
+            "score": 0.6468,
+            "snippet": "page 6 of   8 No. 543 December 2023 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking "
+          },
+          {
+            "chunk_id": "542_p88",
+            "bulletin_number": 542,
+            "page": 88,
+            "year": 2023,
+            "month": "November",
+            "coverage_period": "November 2023",
+            "score": 0.646,
+            "snippet": "page 6 of   8 No. 542 November 2023 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking "
+          },
+          {
+            "chunk_id": "570_p6",
+            "bulletin_number": 570,
+            "page": 6,
+            "year": 2026,
+            "month": "March",
+            "coverage_period": "March 2026",
+            "score": 0.6325,
+            "snippet": "page 6 of   8 No. 570 March 2026 Glossary of terms The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  gro"
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": false,
+        "traversal_path": "No typed traversal path for this query",
+        "nodes_visited": 0,
+        "edges_traversed": 0,
+        "type": "none",
+        "trav_nodes": [],
+        "trav_edges": [],
+        "summary": "Knowledge graph traversal found no structured path for this query. The answer requires synthesising narrative text across bulletin pages -- a capability better suited to passage retrieval on the left."
+      }
+    },
+    {
+      "id": "q3b",
+      "question": "Where were immature solitarious adults reported during the survey period?",
+      "rag": {
+        "summary": "Based on the provided bulletins, immature solitarious adults were reported in multiple locations:\n\n1. **Algeria (Bulletin 560, May 2025)**: Scattered immature solitarious adults were reported around Reggane, along with transiens adults and hoppers.\n\n2. **Algeria (Bulletin 559, April 2025)**: Several isolated and scattered mainly immature solitarious and transiens adults were present around Reggane, Timimoun, and Adrar.\n\n3. **Algeria (Bulletin 562, July 2025)**: Scattered transiens and isolated solitarious adults, mainly of immature aspect, were reported near Biskra, M'Sila, Naama, Ouargla, and El Golea.\n\n4. **Morocco (Bulletin 542, November 2023 and Bulletin 543, December 2023)**: Isolated immature solitarious adults were reported during both months in the northwest and north regions.",
+        "chunks": [
+          {
+            "chunk_id": "560_p67",
+            "bulletin_number": 560,
+            "page": 67,
+            "year": 2025,
+            "month": "May",
+            "coverage_period": "May 2025",
+            "score": 0.4719,
+            "snippet": "page 3 of   9 No. 560 May 2025 at the beginning of the month, followed by scattered immature  adults, and later by mature adults. Scattered immature and  mature solitarious and transiens adults, as well as scattered  hoppers of all instars, increased in many places around  Reggane (2643N/0010E), Adrar (2753N/0017W) and Timimoun  (2916N/0014E), while several groups of immature transiens  adults con"
+          },
+          {
+            "chunk_id": "542_p85",
+            "bulletin_number": 542,
+            "page": 85,
+            "year": 2023,
+            "month": "November",
+            "coverage_period": "November 2023",
+            "score": 0.4616,
+            "snippet": "page 3 of   8 No. 542 November 2023 Moghrein (2510N/1135W) in Tiris-Zemmour. Control operations  treated 179 ha. • FORECAST Low numbers of solitarious adults will remain in the northwest  and north.   MOROCCO • SITUATION During November, isolated immature and mature solitarious  adults were seen in a few places in the south between Bir  Gandouz (2136N/1628W) and Ma’Tallah (2223N/1502W).  • FORECAS"
+          },
+          {
+            "chunk_id": "543_p93",
+            "bulletin_number": 543,
+            "page": 93,
+            "year": 2023,
+            "month": "December",
+            "coverage_period": "December 2023",
+            "score": 0.4587,
+            "snippet": "page 3 of   8 No. 543 December 2023 Nouakchott as well as two places of isolated hoppers. Control  operations treated 36 ha. • FORECAST Low numbers of solitarious adults will remain in the northwest  and north . MOROCCO • SITUATION During December, isolated immature solitarious adults were present  in a few places in the south between Dakhla (2530N/2900E)  and Oum Dreyga (2406N/1316W). During the "
+          },
+          {
+            "chunk_id": "534_p20",
+            "bulletin_number": 534,
+            "page": 20,
+            "year": 2023,
+            "month": "March",
+            "coverage_period": "March 2023",
+            "score": 0.453,
+            "snippet": "page 4 of   8 No. 534 March 2023 SAUDI ARABIA • SITUATION During March, scattered mature solitarious adults and groups  were seen on the northern coast of the Red Sea between  Masturah (2309N/3851E) and Bader (2346N/3847E). Many  of the adults were copulating and laying. Hatching started  at the end of February and continued in March when many  of the hoppers were transiens and gregarious in group"
+          },
+          {
+            "chunk_id": "559_p76",
+            "bulletin_number": 559,
+            "page": 76,
+            "year": 2025,
+            "month": "April",
+            "coverage_period": "April 2025",
+            "score": 0.4496,
+            "snippet": "page 3 of   9 No. 559 April 2025 to 5th instars transiens hoppers were found in several areas.  Several isolated and scattered mainly immature solitarious and  transiens adults were present around Reggane (2643N/0010E),  Timimoun (2916N/0014E), and Adrar (2753N/0017W), with  groups of immature and mature transiens during the third  dekad. Southeast of Tindouf (2741N/0811W), scattered and  few grou"
+          },
+          {
+            "chunk_id": "538_p51",
+            "bulletin_number": 538,
+            "page": 51,
+            "year": 2023,
+            "month": "July",
+            "coverage_period": "July 2023",
+            "score": 0.4492,
+            "snippet": "page 3 of   8 No. 538 July 2023 MALI • SITUATION No locusts were reported during July. • FORECAST Low numbers of adults are likely to appear in the northern  Sahel between Timetrine, Tilemsi Valley, Adrar des Iforas, and  Tamesna as well as in the west near Nioro and Nara where  breeding could occur on a small scale. MAURITANIA • SITUATION During July, isolated and scattered immature solitarious a"
+          },
+          {
+            "chunk_id": "562_p49",
+            "bulletin_number": 562,
+            "page": 49,
+            "year": 2025,
+            "month": "July",
+            "coverage_period": "July 2025",
+            "score": 0.4306,
+            "snippet": "page 3 of   9 No. 562 July 2025 and Biskra (3448N/0549E). Scattered transiens and isolated  solitarious adults, mainly of immature aspect, continued to be  reported in these areas, as well as near M’Sila (3542N/0432E),  Naama (3316N/0018W), Ouargla (3157N/0520E), El Golea  (3034N/0252E), Bechar (3135N/0217W), Beni Abbes (3011N/0214W),  Timimoun (2916N/0014E), Bordj Omar Driss (2809N/0649E),  Adrar"
+          },
+          {
+            "chunk_id": "569_p4",
+            "bulletin_number": 569,
+            "page": 4,
+            "year": 2026,
+            "month": "February",
+            "coverage_period": "February 2026",
+            "score": 0.4269,
+            "snippet": "page 4 of   8 No. 569 February 2026 CENTRAL REGION A few isolated and scattered adults were reported in Sudan.  Isolated adults were also found in Egypt and Eritrea.  Small-scale spring breeding may begin in interior areas. DJIBOUTI • SITUATION No locust reports were received in February. • FORECAST No signiﬁ cant developments are expected. EGYPT • SITUATION During February, isolated mature solita"
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": false,
+        "traversal_path": "No typed traversal path for this query",
+        "nodes_visited": 0,
+        "edges_traversed": 0,
+        "type": "none",
+        "trav_nodes": [],
+        "trav_edges": [],
+        "summary": "Knowledge graph traversal found no structured path for this query. The answer requires synthesising narrative text across bulletin pages -- a capability better suited to passage retrieval on the left."
+      }
+    },
+    {
+      "id": "q4",
+      "question": "Which areas received rainfall that could support locust breeding?",
+      "rag": {
+        "summary": "Based on the retrieved bulletins, several areas received rainfall supporting locust breeding:\n\n**Summer breeding areas (July-September/October):** Sudan, the Sahel of West Africa, western Eritrea, and the Indo-Pakistan border received summer rains that supported breeding activity (Bulletin 537, June 2023; Bulletin 539, August 2023).\n\n**Specific regional rainfall:** In August 2025, Algeria experienced good rainfall from June to August in northern areas where locusts could potentially appear (Bulletin 563). Additionally, Sudan's Nile Valley and areas west of the Red Sea Hills received scattered adult locusts during summer breeding periods (Bulletin 550, July 2024).\n\n**Winter breeding areas (October-January/February):** The Red Sea and Gulf of Aden coasts supported breeding, with the 2023 winter season starting earlier than normal due to Indian Ocean Dipole and El Niño effects (Bulletin 541, October 2023).",
+        "chunks": [
+          {
+            "chunk_id": "549_p51",
+            "bulletin_number": 549,
+            "page": 51,
+            "year": 2024,
+            "month": "June",
+            "coverage_period": "June 2024",
+            "score": 0.7143,
+            "snippet": "SUMMER BREEDING EXPECTED  The Desert Locust situation was calm during July. More locusts  were seen moving south along the northern Nile Valley of  Sudan where locusts had arrived from southern Egypt as spring  breeding was ﬁ nished. During the summer, rainfall began in  June in some areas in the northern Sahel between Mauritania  to western Eritrea, followed by more rain in July. Scattered  adult"
+          },
+          {
+            "chunk_id": "541_p83",
+            "bulletin_number": 541,
+            "page": 83,
+            "year": 2023,
+            "month": "October",
+            "coverage_period": "October 2023",
+            "score": 0.6973,
+            "snippet": "CENTRAL REGION OUTBREAKS Four local Desert Locust outbreaks developed during November.  The winter season started earlier than normal this year along  the Red Sea and Gulf of Aden coasts due to the Indian Ocean  Dipole and El Niño in the Horn of Africa. A few swarms laid  in Sudan and Somalia while groups occurred in Eritrea and  Saudi Arabia. Hatching started and hopper groups and bands  increase"
+          },
+          {
+            "chunk_id": "550_p59",
+            "bulletin_number": 550,
+            "page": 59,
+            "year": 2024,
+            "month": "July",
+            "coverage_period": "July 2024",
+            "score": 0.6885,
+            "snippet": "SUMMER BREEDING CONTINUES The Desert Locust situation was calm during August. Scattered  adults continued in the Nile Valley and west of the Red Sea Hills  of Sudan. Some adults were observed in eastern Pakistan, the  Yemen interior, west and northeast Chad, the central Algerian  Sahara, and a few hoppers in western Mauritania. Moderate to  heavy rain fell in the northern Sahel between Mauritania "
+          },
+          {
+            "chunk_id": "563_p40",
+            "bulletin_number": 563,
+            "page": 40,
+            "year": 2025,
+            "month": "August",
+            "coverage_period": "August 2025",
+            "score": 0.681,
+            "snippet": "page 3 of   9 No. 563 August 2025 ALGERIA • SITUATION During August, no locusts were found east of Adrar (2753N/0017W).  • FORECAST Locust s may still be present in northern areas, where good  rainfall occurred from June to August, and some adults could  appear in September. Breeding may also have taken place  in southern regions, particularly in wadis around the Hoggar  Mountains, where adult loc"
+          },
+          {
+            "chunk_id": "537_p46",
+            "bulletin_number": 537,
+            "page": 46,
+            "year": 2023,
+            "month": "June",
+            "coverage_period": "June 2023",
+            "score": 0.6785,
+            "snippet": "page 6 of   8 No. 537 June 2023 Very large •  swarm: 500+ km2  • band: 50+ ha Rainfall Light •  1–20 mm Moderate •  21–50 mm Heavy •  more than 50 mm Summer rains and breeding areas •  July–September/October •  Sahel of West Africa, Sudan, western Eritrea; Indo-Pakistan  border Winter rains and breeding areas •  October–January/February •  Red Sea and Gulf of Aden coasts; northwest Mauritania,  We"
+          },
+          {
+            "chunk_id": "536_p41",
+            "bulletin_number": 536,
+            "page": 41,
+            "year": 2023,
+            "month": "May",
+            "coverage_period": "May 2023",
+            "score": 0.6765,
+            "snippet": "SUMMER RAINS STARTED EARLY The Desert Locust situation was mainly calm during June.  Control operations continued in Saudi Arabia where late instar  hoppers, groups, and bands became groups of immature  adults in the interior and parts of the Red Sea coastal area.  In Yemen, scattered adults were seen in the interior as well as  in parts of the highland and northern Red Sea coastal areas.  Hoppers"
+          },
+          {
+            "chunk_id": "539_p66",
+            "bulletin_number": 539,
+            "page": 66,
+            "year": 2023,
+            "month": "August",
+            "coverage_period": "August 2023",
+            "score": 0.6744,
+            "snippet": "SUMMER BREEDING The Desert Locust situation was calm during September. Summer  breeding occurred in Sudan, Saudi Arabia, Oman, Mauritania,  and Chad. A few small groups, bands and swarms occurred  in the interior of Sudan, a couple of swarms in Yemen and  Ethiopia, and some control in Sudan, Saudi Arabia, Ethiopia,  and Oman. Isolated adults were in Niger, Morocco, Egypt,  Somalia, and Pakistan. T"
+          },
+          {
+            "chunk_id": "539_p63",
+            "bulletin_number": 539,
+            "page": 63,
+            "year": 2023,
+            "month": "August",
+            "coverage_period": "August 2023",
+            "score": 0.6736,
+            "snippet": "page 7 of   9 No. 539 August 2023 Moderate •  21–50 mm Heavy •  more than 50 mm Summer rains and breeding areas •  July–September/October •  Sahel of West Africa, Sudan, western Eritrea; Indo-Pakistan  border Winter rains and breeding areas •  October–January/February •  Red Sea and Gulf of Aden coasts; northwest Mauritania,  Western Sahara Spring rains and breeding areas •  February–June/July •  "
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": false,
+        "traversal_path": "No typed traversal path for this query",
+        "nodes_visited": 0,
+        "edges_traversed": 0,
+        "type": "none",
+        "trav_nodes": [],
+        "trav_edges": [],
+        "summary": "Knowledge graph traversal found no structured path for this query. The answer requires synthesising narrative text across bulletin pages -- a capability better suited to passage retrieval on the left."
+      }
+    },
+    {
+      "id": "q5",
+      "question": "Where were locust hopper bands and swarms reported?",
+      "rag": {
+        "summary": "I cannot answer this question based on the provided context. The retrieved pages contain only the standardized glossary of terms used in Desert Locust Bulletins (Nos. 542-549 and 570), which defines terminology such as \"Isolated\" for non-gregarious adults and hoppers. These pages do not include actual locust sighting reports, locations of hopper bands, or swarm activity data. To answer your question, I would need pages containing the situational updates or country-by-country reports from these bulletins.",
+        "chunks": [
+          {
+            "chunk_id": "543_p96",
+            "bulletin_number": 543,
+            "page": 96,
+            "year": 2023,
+            "month": "December",
+            "coverage_period": "December 2023",
+            "score": 0.7357,
+            "snippet": "page 6 of   8 No. 543 December 2023 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking "
+          },
+          {
+            "chunk_id": "546_p24",
+            "bulletin_number": 546,
+            "page": 24,
+            "year": 2024,
+            "month": "March",
+            "coverage_period": "March 2024",
+            "score": 0.7356,
+            "snippet": "page 6 of   8 No. 546 March 2024 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking gro"
+          },
+          {
+            "chunk_id": "549_p48",
+            "bulletin_number": 549,
+            "page": 48,
+            "year": 2024,
+            "month": "June",
+            "coverage_period": "June 2024",
+            "score": 0.735,
+            "snippet": "page 6 of   8 No. 549 June 2024 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking grou"
+          },
+          {
+            "chunk_id": "542_p88",
+            "bulletin_number": 542,
+            "page": 88,
+            "year": 2023,
+            "month": "November",
+            "coverage_period": "November 2023",
+            "score": 0.7342,
+            "snippet": "page 6 of   8 No. 542 November 2023 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking "
+          },
+          {
+            "chunk_id": "548_p40",
+            "bulletin_number": 548,
+            "page": 40,
+            "year": 2024,
+            "month": "May",
+            "coverage_period": "May 2024",
+            "score": 0.7333,
+            "snippet": "page 6 of   8 No. 548 May 2024 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking group"
+          },
+          {
+            "chunk_id": "547_p32",
+            "bulletin_number": 547,
+            "page": 32,
+            "year": 2024,
+            "month": "April",
+            "coverage_period": "April 2024",
+            "score": 0.7326,
+            "snippet": "page 6 of   8 No. 547 April 2024 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking gro"
+          },
+          {
+            "chunk_id": "544_p8",
+            "bulletin_number": 544,
+            "page": 8,
+            "year": 2024,
+            "month": "January",
+            "coverage_period": "January 2024",
+            "score": 0.7325,
+            "snippet": "page 6 of   8 No. 544 January 2024 The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  ground or basking g"
+          },
+          {
+            "chunk_id": "570_p6",
+            "bulletin_number": 570,
+            "page": 6,
+            "year": 2026,
+            "month": "March",
+            "coverage_period": "March 2026",
+            "score": 0.6967,
+            "snippet": "page 6 of   8 No. 570 March 2026 Glossary of terms The following special terms are used in the Desert Locust  Bulletin when reporting locusts: Non-gregarious adults and hoppers Isolated   (few)  •  very few present and no mu tu al reaction occurring •  0–1 adult/400 m foot transect (or less than 25/ha) Scattered  (some, low numbers)  •  enough present for mutual reaction to be possible but no  gro"
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": false,
+        "traversal_path": "No typed traversal path for this query",
+        "nodes_visited": 0,
+        "edges_traversed": 0,
+        "type": "none",
+        "trav_nodes": [],
+        "trav_edges": [],
+        "summary": "Knowledge graph traversal found no structured path for this query. The answer requires synthesising narrative text across bulletin pages -- a capability better suited to passage retrieval on the left."
+      }
+    },
+    {
+      "id": "q6",
+      "question": "What vegetation conditions were recorded in the Sahel and Horn of Africa?",
+      "rag": {
+        "summary": "# Vegetation Conditions in the Sahel and Horn of Africa\n\nBased on the retrieved bulletins, vegetation conditions varied by region and season:\n\n**Sahara/Sahel (Western Region):** Bulletin 554 (November 2024) reported that vegetation was greening along the Red Sea and parts of the Gulf of Aden coasts following some rainfall. However, the northern Sahel of West Africa and throughout the Sahara experienced no rainfall during November 2024.\n\n**Recent 2025 Updates:** Bulletins 557 and 558 (February-March 2025) noted that vegetation was green in parts of the Sahara following good rainfall in the interior of Saudi Arabia, Algeria, and Libya.\n\nThe context provided does not contain sufficient detailed information about specific vegetation conditions in the Horn of Africa region to provide a comprehensive answer for that area.",
+        "chunks": [
+          {
+            "chunk_id": "554_p87",
+            "bulletin_number": 554,
+            "page": 87,
+            "year": 2024,
+            "month": "November",
+            "coverage_period": "November 2024",
+            "score": 0.5768,
+            "snippet": "page 2 of   8 No. 554 November 2024 Some rain fell along the Red Sea and parts of the Gulf of  Aden coasts, and vegetation was greening. WESTERN REGION During November, there was no rainfall in the northern Sahel  of West Africa and throughout the Sahara, except for a few  days after mid-month of light rain from northwest and north  Mauritania to Western Sahara and moderate rain south of  the Atla"
+          },
+          {
+            "chunk_id": "549_p45",
+            "bulletin_number": 549,
+            "page": 45,
+            "year": 2024,
+            "month": "June",
+            "coverage_period": "June 2024",
+            "score": 0.5653,
+            "snippet": "page 3 of   8 No. 549 June 2024 near Magedul (2547N/1500E) where 20 ha were treated in  the ﬁ rst dekad.  • FORECAST  No signiﬁ cant developments are likely. MALI • SITUATION No locusts were reported during June. • FORECAST Low numbers of adults should appear in the northeast Sahel  between Timetrine, Tilemsi Valley, Adrar des Iforas, and  Tamesna where rains and a generation of limited small-scal"
+          },
+          {
+            "chunk_id": "545_p16",
+            "bulletin_number": 545,
+            "page": 16,
+            "year": 2024,
+            "month": "February",
+            "coverage_period": "February 2024",
+            "score": 0.5599,
+            "snippet": "page 6 of   8 No. 545 February 2024 Group  •  forming ground or basking groups •  20+ adults/400 m foot transect (or 500+/ha) Adult swarm and hopper band sizes Very small •  swarm: less than 1 km2  • band: 1–25 m2 Small •  swarm: 1–10 km2  • band: 25–2,500 m2 Medium •  swarm: 10–100 km2   • band: 2,500 m2 – 10 ha Large •  swarm: 100–500 km2  • band: 10–50 ha Very large •  swarm: 500+ km2  • band: "
+          },
+          {
+            "chunk_id": "550_p56",
+            "bulletin_number": 550,
+            "page": 56,
+            "year": 2024,
+            "month": "July",
+            "coverage_period": "July 2024",
+            "score": 0.559,
+            "snippet": "page 6 of   8 No. 550 July 2024 Group  •  forming ground or basking groups •  20+ adults/400 m foot transect (or 500+/ha) Adult swarm and hopper band sizes Very small •  swarm: less than 1 km2  • band: 1–25 m2 Small •  swarm: 1–10 km2  • band: 25–2,500 m2 Medium •  swarm: 10–100 km2   • band: 2,500 m2 – 10 ha Large •  swarm: 100–500 km2  • band: 10–50 ha Very large •  swarm: 500+ km2  • band: 50+ "
+          },
+          {
+            "chunk_id": "537_p43",
+            "bulletin_number": 537,
+            "page": 43,
+            "year": 2023,
+            "month": "June",
+            "coverage_period": "June 2023",
+            "score": 0.5551,
+            "snippet": "page 3 of   8 No. 537 June 2023 MAURITANIA • SITUATION During June, isolated and scattered immature solitarious adults  were seen in the northeast from  Atar (2032N/1308W) south  to nearly Boutilimit (1732N/1441W). Some of the adults were  starting to become mature. During the ﬁ rst week, there were  two groups of immature adults between Akjoujt (1945N/1421W)  and Aguilal Faye (1827N/1444W). No lo"
+          },
+          {
+            "chunk_id": "557_p93",
+            "bulletin_number": 557,
+            "page": 93,
+            "year": 2025,
+            "month": "February",
+            "coverage_period": "February 2025",
+            "score": 0.5544,
+            "snippet": "page 2 of   9 No. 557 February 2025 Good rainfall occurred in the interior of Saudi Arabia.  Vegetation was green in parts of the Sahara. WESTERN REGION During February, some light rains fell in the Sahara. Only very  light rains fell during the ﬁ rst dekad in southwest Libya, southern  Algeria and northeastern Mali. During the second dekad, light to  moderate rains fell in central Algeria and wes"
+          },
+          {
+            "chunk_id": "558_p84",
+            "bulletin_number": 558,
+            "page": 84,
+            "year": 2025,
+            "month": "March",
+            "coverage_period": "March 2025",
+            "score": 0.5542,
+            "snippet": "page 2 of   9 No. 558 March 2025 Good rainfall occurred in the interior of Saudi Arabia, Algeria  and Libya. Vegetation was green in parts of the Sahara. WESTERN REGION During March, some light to moderate rains fell in the Sahara.  Light to moderate rains fell during the ﬁ rst dekad from northeastern  Mauritania and northwestern Mali to central Algeria and western  Libya. During the second dekad,"
+          },
+          {
+            "chunk_id": "536_p38",
+            "bulletin_number": 536,
+            "page": 38,
+            "year": 2023,
+            "month": "May",
+            "coverage_period": "May 2023",
+            "score": 0.5538,
+            "snippet": "page 6 of   8 No. 536 May 2023 Group  •  forming ground or basking groups •  20+ adults/400 m foot transect (or 500+/ha) Adult swarm and hopper band sizes Very small •  swarm: less than 1 km2  • band: 1–25 m2 Small •  swarm: 1–10 km2  • band: 25–2,500 m2 Medium •  swarm: 10–100 km2   • band: 2,500 m2 – 10 ha Large •  swarm: 100–500 km2  • band: 10–50 ha Very large •  swarm: 500+ km2  • band: 50+ h"
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": false,
+        "traversal_path": "No typed traversal path for this query",
+        "nodes_visited": 0,
+        "edges_traversed": 0,
+        "type": "none",
+        "trav_nodes": [],
+        "trav_edges": [],
+        "summary": "Knowledge graph traversal found no structured path for this query. The answer requires synthesising narrative text across bulletin pages -- a capability better suited to passage retrieval on the left."
+      }
+    },
+    {
+      "id": "q7",
+      "question": "Which countries carried out aerial and ground control operations?",
+      "rag": {
+        "summary": "I cannot provide a specific answer to this question based on the retrieved context. The provided bulletin pages (Bulletins 533, 535, 538, 540, 564, and 565) discuss FAO's data collection tools, warning alert levels, and lists of locust-affected countries, but they do not contain information about which countries actually conducted aerial and ground control operations. To answer this question accurately, I would need access to bulletin sections that specifically detail control operation activities by country.",
+        "chunks": [
+          {
+            "chunk_id": "540_p71",
+            "bulletin_number": 540,
+            "page": 71,
+            "year": 2023,
+            "month": "September",
+            "coverage_period": "September 2023",
+            "score": 0.3271,
+            "snippet": "page 6 of   8 No. 540 September 2023 • Animation – a simple SWABO animation for all readers  to learn about the world’s most dangerous migratory pest  (www.youtube.com/watch?v=3TOhuA-v1m4) Publicly available locust data Desert Locust survey and control data are available for research  and other non-commercial purposes: • FAO Locust Hub (locust-hub-hqfao.hub.arcgis.com/) • FAO Hand-in-Hand (data.ap"
+          },
+          {
+            "chunk_id": "538_p54",
+            "bulletin_number": 538,
+            "page": 54,
+            "year": 2023,
+            "month": "July",
+            "coverage_period": "July 2023",
+            "score": 0.3141,
+            "snippet": "page 6 of   8 No. 538 July 2023 • Animation – a simple SWABO animation for all readers  to learn about the world's most dangerous migratory pest  (www.youtube.com/watch?v=3TOhuA-v1m4) Publicly available locust data Desert Locust survey and control data are available for research  and other non-commercial purposes: • FAO Locust Hub (locust-hub-hqfao.hub.arcgis.com/) • FAO Hand-in-Hand (data.apps.fa"
+          },
+          {
+            "chunk_id": "533_p14",
+            "bulletin_number": 533,
+            "page": 14,
+            "year": 2023,
+            "month": "February",
+            "coverage_period": "February 2023",
+            "score": 0.3,
+            "snippet": "page 6 of   8 No. 533 February 2023 and the onset of recessions; can be regional or major Warning levels Green • \tCalm. Low alert. No threat to crops; maintain regular surveys  and monitoring Yellow • \tCaution. Moderate alert. Potential threat to crops; increased  vigilance is required; control operations may be needed Orange • \tSerious. High alert. Threat to crops; survey and control  operations "
+          },
+          {
+            "chunk_id": "564_p34",
+            "bulletin_number": 564,
+            "page": 34,
+            "year": 2025,
+            "month": "September",
+            "coverage_period": "September 2025",
+            "score": 0.2762,
+            "snippet": "page 6 of   9 No. 564 September 2025 eLocust3 digital tools In addition to the original eLocust3 tablet, FAO has three free  tools for data collection in the ﬁ eld: • eLocust3K – a smartphone app for survey and control data,  based on KoboToolBox • eLocust3g – a GPS app for emergencies, developed with  Garmin (tiny.cc/eLocust3g) • eLocust3w – an Internet form for emergencies, developed  in Kobo (t"
+          },
+          {
+            "chunk_id": "540_p72",
+            "bulletin_number": 540,
+            "page": 72,
+            "year": 2023,
+            "month": "September",
+            "coverage_period": "September 2023",
+            "score": 0.2715,
+            "snippet": "page 7 of   8 No. 540 September 2023 Ghana, Guinea, Guinea-Bissau, Liberia, Nigeria, Sierre  Leone and Togo Central •  Locust-affected countries along the Red Sea: Djibouti,  Egypt, Eritrea, Ethiopia, Oman, Saudi Arabia, Somalia,  Sudan, Yemen; during upsurges and plagues only: Bahrain,  D.R. Congo, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon,  Palestine, Qatar, South Sudan, Syria, Tanzania, Turk"
+          },
+          {
+            "chunk_id": "565_p25",
+            "bulletin_number": 565,
+            "page": 25,
+            "year": 2025,
+            "month": "October",
+            "coverage_period": "October 2025",
+            "score": 0.2706,
+            "snippet": "page 6 of   9 No. 565 October 2025 month. Reports should be sent even if no locusts were found  or if no surveys were conducted. eLocust3 digital tools In addition to the original eLocust3 tablet, FAO has three free  tools for data collection in the ﬁ eld: • eLocust3K – a smartphone app for survey and control data,  based on KoboToolBox • eLocust3g – a GPS app for emergencies, developed with  Garm"
+          },
+          {
+            "chunk_id": "535_p29",
+            "bulletin_number": 535,
+            "page": 29,
+            "year": 2023,
+            "month": "April",
+            "coverage_period": "April 2023",
+            "score": 0.2668,
+            "snippet": "page 5 of   8 No. 535 April 2023 of the new month will be included in the FAO Desert Locust  Bulletin; otherwise, they will not appear until the following  month. Reports should be sent even if no locusts were found  or if no surveys were conducted. eLocust3 digital tools In addition to the original eLocust3 tablet, FAO has three free  tools for data collection in the ﬁ eld: • eLocust3m – a smartp"
+          },
+          {
+            "chunk_id": "538_p55",
+            "bulletin_number": 538,
+            "page": 55,
+            "year": 2023,
+            "month": "July",
+            "coverage_period": "July 2023",
+            "score": 0.2541,
+            "snippet": "page 7 of   8 No. 538 July 2023 Ghana, Guinea, Guinea-Bissau, Liberia, Nigeria, Sierre  Leone and Togo Central •  Locust-affected countries along the Red Sea: Djibouti,  Egypt, Eritrea, Ethiopia, Oman, Saudi Arabia, Somalia,  Sudan, Yemen; during upsurges and plagues only: Bahrain,  FAO Locust Watch. Information, maps, activities, publications, archives, FAQs, links   http://www.fao.org/ag/locusts"
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": false,
+        "traversal_path": "No typed traversal path for this query",
+        "nodes_visited": 0,
+        "edges_traversed": 0,
+        "type": "none",
+        "trav_nodes": [],
+        "trav_edges": [],
+        "summary": "Knowledge graph traversal found no structured path for this query. The answer requires synthesising narrative text across bulletin pages -- a capability better suited to passage retrieval on the left."
+      }
+    },
+    {
+      "id": "q8",
+      "question": "What were the survey results in the Red Sea coastal areas?",
+      "rag": {
+        "summary": "# Red Sea Coastal Survey Results\n\nBased on the FAO Desert Locust Bulletins, survey results in Red Sea coastal areas showed variable locust activity across multiple countries and time periods:\n\n**Sudan** consistently reported scattered solitarious hoppers and adults along the Red Sea coast between Suakin and Port Sudan (Bulletin 532, January 2023), with additional sightings near Tokar and Karora extending into February 2023 (Bulletin 533). By February 2025, hopper groups were observed on the Red Sea coast (Bulletin 557).\n\n**Saudi Arabia** documented scattered mature solitarious adults and groups on the northern Red Sea coast between Masturah and Bader during March 2023, with many copulating and laying (Bulletin 534). A local outbreak developed in the central Red Sea coast by November 2023 (Bulletin 542).\n\n**Somalia** reported minimal locust activity, with no locusts seen along the northwest coast during February 2025 (Bulletin 557), contrasting with earlier isolated sightings in April 2023 (Bulletin 535).",
+        "chunks": [
+          {
+            "chunk_id": "533_p12",
+            "bulletin_number": 533,
+            "page": 12,
+            "year": 2023,
+            "month": "February",
+            "coverage_period": "February 2023",
+            "score": 0.5176,
+            "snippet": "page 4 of   8 No. 533 February 2023 Further south, scattered mature solitarious adults were seen  in Tokar (1827N/3741E) and the south coast near Aqiq (1813/ N3811E) and Karora (1745N/3820E). A few scattered solitarious  late instar hoppers and groups were still present on the central  coast and near Wadi Oko/Diib in the northeast. Ground teams  treated 3 826 ha on the central coast and in Wadi Ok"
+          },
+          {
+            "chunk_id": "532_p4",
+            "bulletin_number": 532,
+            "page": 4,
+            "year": 2023,
+            "month": "January",
+            "coverage_period": "January 2023",
+            "score": 0.4185,
+            "snippet": "page 4 of   8 No. 532 January 2022 Sudan • situation During January, scattered late instar solitarious hoppers were  present on the Red Sea coast between Suakin (1906N/3719E)  and Port Sudan (1938N/3713E), a few near Tokar (1827N/3741E)  and Karora (1745N/3820E) in the south, and north of Tomala  (2002N/3551E) in the northeast subcoastal areas. Hopper  groups started to form after mid-month near T"
+          },
+          {
+            "chunk_id": "535_p28",
+            "bulletin_number": 535,
+            "page": 28,
+            "year": 2023,
+            "month": "April",
+            "coverage_period": "April 2023",
+            "score": 0.3976,
+            "snippet": "page 4 of   8 No. 535 April 2023 SOMALIA • SITUATION During April, isolated immature and mature solitarious adults  were seen in a few places on the coast and escarpment in  the northwest. No locusts were seen on the plateau as well  as in the northeast near Las Anod (0828N/4721E) and east  of E rigavo (1040N/4720E). • FORECAST Adults will decline on the coastal, escarpment and plateau  areas. No "
+          },
+          {
+            "chunk_id": "534_p20",
+            "bulletin_number": 534,
+            "page": 20,
+            "year": 2023,
+            "month": "March",
+            "coverage_period": "March 2023",
+            "score": 0.3872,
+            "snippet": "page 4 of   8 No. 534 March 2023 SAUDI ARABIA • SITUATION During March, scattered mature solitarious adults and groups  were seen on the northern coast of the Red Sea between  Masturah (2309N/3851E) and Bader (2346N/3847E). Many  of the adults were copulating and laying. Hatching started  at the end of February and continued in March when many  of the hoppers were transiens and gregarious in group"
+          },
+          {
+            "chunk_id": "565_p24",
+            "bulletin_number": 565,
+            "page": 24,
+            "year": 2025,
+            "month": "October",
+            "coverage_period": "October 2025",
+            "score": 0.3628,
+            "snippet": "page 5 of   9 No. 565 October 2025 the Atbara River between Atbara (1742N/3400E) and Kassala  (1527N/3623E), along the Nile River north of Berber (1801N/3400E)  and north of Dongola (1910N/3027E), as well as along the  western side of the Red Sea Hills, from south of Derudeb  (1731N/3607E) to north of Suﬁ ya (2119N/3613E) and the  northern border. No locusts were observed along the Red Sea  coast "
+          },
+          {
+            "chunk_id": "557_p96",
+            "bulletin_number": 557,
+            "page": 96,
+            "year": 2025,
+            "month": "February",
+            "coverage_period": "February 2025",
+            "score": 0.3608,
+            "snippet": "page 5 of   9 No. 557 February 2025 SOMALIA • SITUATION During February, no locusts were seen along the northwest  coast, escarpment, and the plateau. • FORECAST No signiﬁ cant developments are likely. SUDAN • SITUATION During February, hoppers groups were seen on the Red Sea  coast near Tokar Delta (1827N/3741E) , extending further south  with 1st to 5th instars bands from Adobana (1810N/3816E) t"
+          },
+          {
+            "chunk_id": "542_p86",
+            "bulletin_number": 542,
+            "page": 86,
+            "year": 2023,
+            "month": "November",
+            "coverage_period": "November 2023",
+            "score": 0.3587,
+            "snippet": "page 4 of   8 No. 542 November 2023 SAUDI ARABIA • SITUATION During November, a local outbreak developed along the Red  Sea coast where scattered locusts and a few groups of laying,  hatching and ﬁ rst to third instar hoppers and groups were present  in the central Red Sea coast near Lith (2008N/4016E) and in the  northern coast between Thuwal (2215N/3906E) and Masturah  (2309N/3851E), which is th"
+          },
+          {
+            "chunk_id": "567_p6",
+            "bulletin_number": 567,
+            "page": 6,
+            "year": 2025,
+            "month": "December",
+            "coverage_period": "December 2025",
+            "score": 0.3583,
+            "snippet": "page 5 of   9 No. 567 December 2025 • FORECAST Small-scale winter breeding may occur along the Red Sea  coast, along Wadis Oko and Diib and in the Red Sea Hills.  Small groups may form. Surveys are necessary and preventive  control may become necessary. YEMEN • SITUATION Duri ng December, isolated and scattered maturing and mature  solitarious adults were present between Am Rija (1302N/4434E),  Ad"
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": false,
+        "traversal_path": "No typed traversal path for this query",
+        "nodes_visited": 0,
+        "edges_traversed": 0,
+        "type": "none",
+        "trav_nodes": [],
+        "trav_edges": [],
+        "summary": "Knowledge graph traversal found no structured path for this query. The answer requires synthesising narrative text across bulletin pages -- a capability better suited to passage retrieval on the left."
+      }
+    },
+    {
+      "id": "q9",
+      "question": "Where did spring breeding conditions develop in the Western Region?",
+      "rag": {
+        "summary": "Based on the provided context, spring breeding conditions in the Western Region developed in **Northwest Africa and Saudi Arabia in May** (Bulletin 535, April 2023). Specifically, breeding continued on the **central and northern Red Sea coast** as well as in the **interior of Saudi Arabia**, where hopper groups and bands and immature adults were present. Control operations were increased during this spring season in response to these breeding conditions.",
+        "chunks": [
+          {
+            "chunk_id": "534_p22",
+            "bulletin_number": 534,
+            "page": 22,
+            "year": 2023,
+            "month": "March",
+            "coverage_period": "March 2023",
+            "score": 0.5858,
+            "snippet": "page 6 of   8 No. 534 March 2023 Heavy •  more than 50 mm Summer rains and breeding areas •  July–September/October •  Sahel of West Africa, Sudan, western Eritrea; Indo-Pakistan  border Winter rains and breeding areas •  October–January/February •  Red Sea and Gulf of Aden coasts; northwest Mauritania,  Western Sahara Spring rains and breeding areas •  February–June/July •  Northwest Africa, Arab"
+          },
+          {
+            "chunk_id": "539_p63",
+            "bulletin_number": 539,
+            "page": 63,
+            "year": 2023,
+            "month": "August",
+            "coverage_period": "August 2023",
+            "score": 0.5751,
+            "snippet": "page 7 of   9 No. 539 August 2023 Moderate •  21–50 mm Heavy •  more than 50 mm Summer rains and breeding areas •  July–September/October •  Sahel of West Africa, Sudan, western Eritrea; Indo-Pakistan  border Winter rains and breeding areas •  October–January/February •  Red Sea and Gulf of Aden coasts; northwest Mauritania,  Western Sahara Spring rains and breeding areas •  February–June/July •  "
+          },
+          {
+            "chunk_id": "554_p88",
+            "bulletin_number": 554,
+            "page": 88,
+            "year": 2024,
+            "month": "November",
+            "coverage_period": "November 2024",
+            "score": 0.561,
+            "snippet": "page 3 of   8 No. 554 November 2024 MAURITANIA • SITUATION  During November, isolated hoppers of all instars and immature  and mature solitarious adults were present in the west and central areas east of Aguilal Faye (1827N/1444W) in Trarza, north of Magta Lahjar (1730N/1305W) in Brakna, near  Tidjikja (1833N/1126W) in Tagant, and south of  Oujeft (2003N/1301W)  in southwest Adrar, as well as in t"
+          },
+          {
+            "chunk_id": "535_p33",
+            "bulletin_number": 535,
+            "page": 33,
+            "year": 2023,
+            "month": "April",
+            "coverage_period": "April 2023",
+            "score": 0.5449,
+            "snippet": "CAUTION  IN WESTERN REGION Control operations increased during the spring season in  Northwest Africa and Saudi Arabia in May. In Saudi Arabia,  breeding continued on the central and northern Red Sea coast  as well as in the interior where hopper groups and bands and  immature adult groups were controlled by air and ground.  As temperature increases and no rains are expected, adult  groups should "
+          },
+          {
+            "chunk_id": "537_p46",
+            "bulletin_number": 537,
+            "page": 46,
+            "year": 2023,
+            "month": "June",
+            "coverage_period": "June 2023",
+            "score": 0.542,
+            "snippet": "page 6 of   8 No. 537 June 2023 Very large •  swarm: 500+ km2  • band: 50+ ha Rainfall Light •  1–20 mm Moderate •  21–50 mm Heavy •  more than 50 mm Summer rains and breeding areas •  July–September/October •  Sahel of West Africa, Sudan, western Eritrea; Indo-Pakistan  border Winter rains and breeding areas •  October–January/February •  Red Sea and Gulf of Aden coasts; northwest Mauritania,  We"
+          },
+          {
+            "chunk_id": "560_p74",
+            "bulletin_number": 560,
+            "page": 74,
+            "year": 2025,
+            "month": "May",
+            "coverage_period": "May 2025",
+            "score": 0.5401,
+            "snippet": "SEVERAL OUTBREAKS IN NORTHWESTERN AFRICA  In April, Desert Locust outbreaks persisted in the Western  Region, with an increase in adult groups and a few small  swarms moving northward across the Sahara between Algeria,  Tunisia and Libya. Additional groups were observed in Morocco,  northern Chad, and Niger. Spring breeding continued, leading  to the emergence of a new generation of hoppers, inclu"
+          },
+          {
+            "chunk_id": "539_p66",
+            "bulletin_number": 539,
+            "page": 66,
+            "year": 2023,
+            "month": "August",
+            "coverage_period": "August 2023",
+            "score": 0.5321,
+            "snippet": "SUMMER BREEDING The Desert Locust situation was calm during September. Summer  breeding occurred in Sudan, Saudi Arabia, Oman, Mauritania,  and Chad. A few small groups, bands and swarms occurred  in the interior of Sudan, a couple of swarms in Yemen and  Ethiopia, and some control in Sudan, Saudi Arabia, Ethiopia,  and Oman. Isolated adults were in Niger, Morocco, Egypt,  Somalia, and Pakistan. T"
+          },
+          {
+            "chunk_id": "562_p56",
+            "bulletin_number": 562,
+            "page": 56,
+            "year": 2025,
+            "month": "July",
+            "coverage_period": "July 2025",
+            "score": 0.5269,
+            "snippet": "GROUPS PERSIST BEFORE SHIFTING SOUTH  FOR SUMMER BREEDING  In June, Desert Locust activity declined in the Western Region’s  northern areas but remained signiﬁ cant in Libya and Algeria.  Swarms and hopper bands were reported in northwestern Libya,  while adult groups persisted and hopper groups continued to  appear in Algeria’s central and northern Sahara. Some signs of  breeding started to be re"
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": false,
+        "traversal_path": "No typed traversal path for this query",
+        "nodes_visited": 0,
+        "edges_traversed": 0,
+        "type": "none",
+        "trav_nodes": [],
+        "trav_edges": [],
+        "summary": "Knowledge graph traversal found no structured path for this query. The answer requires synthesising narrative text across bulletin pages -- a capability better suited to passage retrieval on the left."
+      }
+    },
+    {
+      "id": "qMor",
+      "question": "What locust activity and control operations were reported for Morocco?",
+      "rag": {
+        "summary": "Based on the provided bulletins, Morocco had limited Desert Locust activity in mid-2025. In Bulletin 562 (July 2025), few isolated and scattered immature, maturing, and mature solitarious and transiens adults were observed in the Ziz valley near Merzouga and Errachidia. Additionally, Bulletin 559 (April 2025) noted that adult groups arrived in Morocco to a lower extent compared to other Northwestern African countries (Algeria, Libya, Tunisia) during the outbreak expansion in March 2025, with spring breeding starting in the country. However, the retrieved pages do not contain specific information about control operations conducted in Morocco.",
+        "chunks": [
+          {
+            "chunk_id": "572_p3",
+            "bulletin_number": 572,
+            "page": 3,
+            "year": 2026,
+            "month": "May",
+            "coverage_period": "May 2026",
+            "score": 0.7159,
+            "snippet": "page 3 of   8 No. 572 May 2026 CHAD • SITUATION No locusts were reported during May. • FORECAST No signiﬁ cant developments are expected. LIBYA • SITUATION No  locusts were reported during May. • FORECAST Some locusts may be present in the western parts of the  country, where small-scale spring breeding is likely concluding.  In July, populations are expected to move southwards to the  Sahel for s"
+          },
+          {
+            "chunk_id": "563_p41",
+            "bulletin_number": 563,
+            "page": 41,
+            "year": 2025,
+            "month": "August",
+            "coverage_period": "August 2025",
+            "score": 0.6911,
+            "snippet": "page 4 of   9 No. 563 August 2025 TUNISIA • SITUATION During August, no locusts were found in Tozeur governorate. • FORECAST No signiﬁ cant developments are likely. BENIN, CABO VERDE, CAMEROON, CÔTE D’IVOIRE, GAMBIA,  GHANA, GUINEA, GUINEA-BISSAU, LIBERIA, NIGERIA,  SIERRA LEONE, AND TOGO • FORECAST No signiﬁ cant developments are likely. CENTRAL REGION A few adults were present in irrigated areas"
+          },
+          {
+            "chunk_id": "559_p83",
+            "bulletin_number": 559,
+            "page": 83,
+            "year": 2025,
+            "month": "April",
+            "coverage_period": "April 2025",
+            "score": 0.6897,
+            "snippet": "OUTBREAK EXPANDED IN NORTHWESTERN AFRICA  The Desert Locust outbreak of southern Sahara expanded  to Northwestern Africa during March. Adult groups arrived in  several places of Algeria, Libya, Tunisia, and to a lower extent  to Morocco. Spring breeding started in these countries where  rainfall occurred, and hopper groups and small bands began  to appear at the end of the month. Hopper and adult "
+          },
+          {
+            "chunk_id": "558_p92",
+            "bulletin_number": 558,
+            "page": 92,
+            "year": 2025,
+            "month": "March",
+            "coverage_period": "March 2025",
+            "score": 0.6866,
+            "snippet": "BREEDING CONTINUES  Desert Locust outbreaks persisted in northern Sudan and the  southern Sahara during February. While locust populations  declined during the winter season along the Red Sea coast  from Eritrea to Egypt, adult groups and swarms remained in  the Nile Valley of northern Sudan and southern Egypt. New  hopper groups and bands formed along the northern coast of  Saudi Arabia. In the s"
+          },
+          {
+            "chunk_id": "562_p50",
+            "bulletin_number": 562,
+            "page": 50,
+            "year": 2025,
+            "month": "July",
+            "coverage_period": "July 2025",
+            "score": 0.6771,
+            "snippet": "page 4 of   9 No. 562 July 2025 MOROCCO • SITUATION During July, few isolated and scattered immature, maturing,  and mature solitarious and transiens adults continued to be  observed in the Ziz valley near Merzouga (3105N/0401W) and  Errachidia (3154N/0425W), as well as in the Oriental, near  Bouarfa (3207N/0113W). Few isolated immature solitarious and  transiens adults were found further south of"
+          },
+          {
+            "chunk_id": "540_p71",
+            "bulletin_number": 540,
+            "page": 71,
+            "year": 2023,
+            "month": "September",
+            "coverage_period": "September 2023",
+            "score": 0.6728,
+            "snippet": "page 6 of   8 No. 540 September 2023 • Animation – a simple SWABO animation for all readers  to learn about the world’s most dangerous migratory pest  (www.youtube.com/watch?v=3TOhuA-v1m4) Publicly available locust data Desert Locust survey and control data are available for research  and other non-commercial purposes: • FAO Locust Hub (locust-hub-hqfao.hub.arcgis.com/) • FAO Hand-in-Hand (data.ap"
+          },
+          {
+            "chunk_id": "571_p3",
+            "bulletin_number": 571,
+            "page": 3,
+            "year": 2026,
+            "month": "April",
+            "coverage_period": "April 2026",
+            "score": 0.6715,
+            "snippet": "page 3 of   8 No. 571 April 2026 BURKINA FASO • SITUATION No locusts were reported during April. • FORECAST No  signiﬁ cant developments are expected. CHAD • SITUATION No locusts were reported during April. • FORECAST No signiﬁ cant developments are expected. LIBYA • SITUATION No  locusts were reported during April. • FORECAST Some locusts may be present in the western parts of the  country, where"
+          },
+          {
+            "chunk_id": "538_p54",
+            "bulletin_number": 538,
+            "page": 54,
+            "year": 2023,
+            "month": "July",
+            "coverage_period": "July 2023",
+            "score": 0.6697,
+            "snippet": "page 6 of   8 No. 538 July 2023 • Animation – a simple SWABO animation for all readers  to learn about the world's most dangerous migratory pest  (www.youtube.com/watch?v=3TOhuA-v1m4) Publicly available locust data Desert Locust survey and control data are available for research  and other non-commercial purposes: • FAO Locust Hub (locust-hub-hqfao.hub.arcgis.com/) • FAO Hand-in-Hand (data.apps.fa"
+          }
+        ]
+      },
+      "graphrag": {
+        "has_results": true,
+        "traversal_path": "Bulletin -[mentions]-> Morocco",
+        "nodes_visited": 41,
+        "edges_traversed": 40,
+        "type": "country_mentions",
+        "country": "Morocco",
+        "total_ha": 2639.0,
+        "data_points": [
+          {
+            "bulletin": 532,
+            "year": 2023,
+            "coverage": "January 2023",
+            "ha_treated": 467.0
+          },
+          {
+            "bulletin": 533,
+            "year": 2023,
+            "coverage": "February 2023",
+            "ha_treated": 606.0
+          },
+          {
+            "bulletin": 534,
+            "year": 2023,
+            "coverage": "March 2023",
+            "ha_treated": 857.0
+          },
+          {
+            "bulletin": 535,
+            "year": 2023,
+            "coverage": "April 2023",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 536,
+            "year": 2023,
+            "coverage": "May 2023",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 537,
+            "year": 2023,
+            "coverage": "June 2023",
+            "ha_treated": 523.0
+          },
+          {
+            "bulletin": 538,
+            "year": 2023,
+            "coverage": "July 2023",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 539,
+            "year": 2023,
+            "coverage": "August 2023",
+            "ha_treated": 66.0
+          },
+          {
+            "bulletin": 540,
+            "year": 2023,
+            "coverage": "September 2023",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 541,
+            "year": 2023,
+            "coverage": "October 2023",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 542,
+            "year": 2023,
+            "coverage": "November 2023",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 543,
+            "year": 2023,
+            "coverage": "December 2023",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 544,
+            "year": 2024,
+            "coverage": "January 2024",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 545,
+            "year": 2024,
+            "coverage": "February 2024",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 546,
+            "year": 2024,
+            "coverage": "March 2024",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 547,
+            "year": 2024,
+            "coverage": "April 2024",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 548,
+            "year": 2024,
+            "coverage": "May 2024",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 549,
+            "year": 2024,
+            "coverage": "June 2024",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 550,
+            "year": 2024,
+            "coverage": "July 2024",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 551,
+            "year": 2024,
+            "coverage": "August 2024",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 552,
+            "year": 2024,
+            "coverage": "September 2024",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 553,
+            "year": 2024,
+            "coverage": "October 2024",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 554,
+            "year": 2024,
+            "coverage": "November 2024",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 555,
+            "year": 2024,
+            "coverage": "December 2024",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 557,
+            "year": 2025,
+            "coverage": "February 2025",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 558,
+            "year": 2025,
+            "coverage": "March 2025",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 559,
+            "year": 2025,
+            "coverage": "April 2025",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 560,
+            "year": 2025,
+            "coverage": "May 2025",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 561,
+            "year": 2025,
+            "coverage": "June 2025",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 562,
+            "year": 2025,
+            "coverage": "July 2025",
+            "ha_treated": 120.0
+          },
+          {
+            "bulletin": 563,
+            "year": 2025,
+            "coverage": "August 2025",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 564,
+            "year": 2025,
+            "coverage": "September 2025",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 565,
+            "year": 2025,
+            "coverage": "October 2025",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 566,
+            "year": 2025,
+            "coverage": "November 2025",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 567,
+            "year": 2025,
+            "coverage": "December 2025",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 568,
+            "year": 2026,
+            "coverage": "January 2026",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 569,
+            "year": 2026,
+            "coverage": "February 2026",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 570,
+            "year": 2026,
+            "coverage": "March 2026",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 571,
+            "year": 2026,
+            "coverage": "April 2026",
+            "ha_treated": 0.0
+          },
+          {
+            "bulletin": 572,
+            "year": 2026,
+            "coverage": "May 2026",
+            "ha_treated": 0.0
+          }
+        ],
+        "trav_nodes": [
+          "Bulletin_548",
+          "Bulletin_539",
+          "Bulletin_561",
+          "Bulletin_535",
+          "Bulletin_533",
+          "Bulletin_546",
+          "Bulletin_534",
+          "Bulletin_540",
+          "Bulletin_563",
+          "Bulletin_549",
+          "Bulletin_564",
+          "Bulletin_562",
+          "Bulletin_566",
+          "Bulletin_571",
+          "Bulletin_568",
+          "Bulletin_550",
+          "Bulletin_551",
+          "Bulletin_570",
+          "Bulletin_553",
+          "Bulletin_572",
+          "Bulletin_541",
+          "Bulletin_543",
+          "Bulletin_565",
+          "Bulletin_557",
+          "Bulletin_537",
+          "Bulletin_544",
+          "Bulletin_559",
+          "Bulletin_555",
+          "Bulletin_554",
+          "Bulletin_567",
+          "Bulletin_545",
+          "Bulletin_538",
+          "Morocco",
+          "Bulletin_552",
+          "Bulletin_560",
+          "Bulletin_542",
+          "Bulletin_532",
+          "Bulletin_536",
+          "Bulletin_547",
+          "Bulletin_569",
+          "Bulletin_558"
+        ],
+        "trav_edges": [
+          [
+            "Bulletin_532",
+            "Morocco"
+          ],
+          [
+            "Bulletin_533",
+            "Morocco"
+          ],
+          [
+            "Bulletin_534",
+            "Morocco"
+          ],
+          [
+            "Bulletin_535",
+            "Morocco"
+          ],
+          [
+            "Bulletin_536",
+            "Morocco"
+          ],
+          [
+            "Bulletin_537",
+            "Morocco"
+          ],
+          [
+            "Bulletin_538",
+            "Morocco"
+          ],
+          [
+            "Bulletin_539",
+            "Morocco"
+          ],
+          [
+            "Bulletin_540",
+            "Morocco"
+          ],
+          [
+            "Bulletin_541",
+            "Morocco"
+          ],
+          [
+            "Bulletin_542",
+            "Morocco"
+          ],
+          [
+            "Bulletin_543",
+            "Morocco"
+          ],
+          [
+            "Bulletin_544",
+            "Morocco"
+          ],
+          [
+            "Bulletin_545",
+            "Morocco"
+          ],
+          [
+            "Bulletin_546",
+            "Morocco"
+          ],
+          [
+            "Bulletin_547",
+            "Morocco"
+          ],
+          [
+            "Bulletin_548",
+            "Morocco"
+          ],
+          [
+            "Bulletin_549",
+            "Morocco"
+          ],
+          [
+            "Bulletin_550",
+            "Morocco"
+          ],
+          [
+            "Bulletin_551",
+            "Morocco"
+          ],
+          [
+            "Bulletin_552",
+            "Morocco"
+          ],
+          [
+            "Bulletin_553",
+            "Morocco"
+          ],
+          [
+            "Bulletin_554",
+            "Morocco"
+          ],
+          [
+            "Bulletin_555",
+            "Morocco"
+          ],
+          [
+            "Bulletin_557",
+            "Morocco"
+          ],
+          [
+            "Bulletin_558",
+            "Morocco"
+          ],
+          [
+            "Bulletin_559",
+            "Morocco"
+          ],
+          [
+            "Bulletin_560",
+            "Morocco"
+          ],
+          [
+            "Bulletin_561",
+            "Morocco"
+          ],
+          [
+            "Bulletin_562",
+            "Morocco"
+          ],
+          [
+            "Bulletin_563",
+            "Morocco"
+          ],
+          [
+            "Bulletin_564",
+            "Morocco"
+          ],
+          [
+            "Bulletin_565",
+            "Morocco"
+          ],
+          [
+            "Bulletin_566",
+            "Morocco"
+          ],
+          [
+            "Bulletin_567",
+            "Morocco"
+          ],
+          [
+            "Bulletin_568",
+            "Morocco"
+          ],
+          [
+            "Bulletin_569",
+            "Morocco"
+          ],
+          [
+            "Bulletin_570",
+            "Morocco"
+          ],
+          [
+            "Bulletin_571",
+            "Morocco"
+          ],
+          [
+            "Bulletin_572",
+            "Morocco"
+          ]
+        ],
+        "summary": "# Morocco Desert Locust Activity Summary\n\nMorocco reported locust control operations across multiple bulletins in 2023 and 2025, with a total of 2,639 hectares treated. Peak treatment activity occurred in March 2023 (B534: 857 ha), followed by February 2023 (B533: 606 ha) and June 2023 (B537: 523 ha). Lower treatment levels were documented in January 2023 (B532: 467 ha), August 2023 (B539: 66 ha), and July 2025 (B562: 120 ha). The data indicates sustained locust management efforts over an 18-month period, with the first half of 2023 representing the most intensive control operations."
+      }
+    }
+  ]
+}
