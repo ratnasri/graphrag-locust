@@ -1,0 +1,5 @@
+networkx
+numpy
+pyvis
+sentence-transformers
+anthropic
